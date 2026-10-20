@@ -1,0 +1,1222 @@
+text,label,note
+"Anyone migrate off Google Voice?
+
+If so how did you do it and what did you migrate to and how did it work out?",open_question,cold
+"Ask HN: Dark mode for HN please? (2026)
+
+The 2020 thread does a lot: https://news.ycombinator.com/item?id=23197966
+It shows 100 solutions in light of Parkinson’s Law of Triviality. Intense opinions and discussion.
+It teaches about alligator energy and how they can live without food for up to two years.
+It teaches that this site should look like top, yet I’ve rarely seen top on a white terminal in the past two decades. This does exist, nofi.
+Workarounds exist, and those are “mid” janky shit shows. One I tried was an iOS app. It flashes the page between light and dark on every click. Aside from not being a solution, it’s nausea-inducing, takes 20+ steps to install, requires you to blindly trust the app without a Git repo, and requires you to change your OS. It shows that running 20 miles to solve this is what people do to get to any promise of a solution. So many of these exist that it’s just a swamp of well intended nightmares making the problem worse.
+HN is filled with love for fonts, styling, terminal themes, CSS madness, and quirks. Yet here I am with empty hands and little karma, with a screen that burns into my eyes at night. The last bastion of light, in more ways than intended.
+As with the resolution to PHP’s sleep(), going with something that keeps things running unchanged for those who don’t move, but tailoring it further for those who want it, I’d opt for two extremes for logged-in users:
+A: Adding a custom CSS styling text area, allowing for maximized creativity, experimentation, hacking, and freedom, and supporting any matter of taste and necessity. It is just fun, and this might be shut down due to arguments about security, bloat, resetting mistakes, and such. But it’s still the most fun and expressive option.
+B: Having a drop-down setting for some styles, where just inverting the whole site with two lines of CSS using `filter: invert()` works for me, or choosing whatever theme is agreed upon somewhere. We have millions of dollars’ worth of CSS talent on this site and similar amounts of LLM investment to get something tasteful, respectful, well thought out, and just great. Make it a contest. Hurt me plenty.
+This is not a dilemma, but I hope to inspire a move toward a native solution so I can read HN at night without the abracadabra of altering my OS, browser, trust, or, well, anything outside this site.
+I’m also fine with no solution to this if the answer is: You should not read HN at night for a better and healthier life. Then add that to HN policy. I didn’t find that.
+Sorry for bringing this up again.",position,cold; hard case: position vs worked_request; asks HN to add a feature rather than asking readers for advice
+"Ask HN: What Have You Built Privately with AI That You'd Like to Share?
+
+An idea has circulated that a lot of us are just privately building software for our own projects without sharing the build
+We could however share the ideas of what we're building so that other people could build sometime similar to fill their own needs or the ideas could be incorporated in to other projects
+A lot of random things come to mind for me, like I started (but for now abandoned) some kind of picture icon viewer by date on Linux desktop. A lot of smartphone file viewers display pics this way automatically and it lets you look at what pics you've accumulated day by day, but I didn't see this feature on different Linux file viewers (and it was apparently a requested feature others were looking for).
+So what have you built privately with AI that you might like to share ideas about?
+edit: alternatively, are there any things you'd like to see others create (and I suppose a comment about what holds you back from creating them)?",open_question,cold
+"Read old.reddit.com logged out, forever
+
+just search 'sheddit' in chrome/mozilla store. that plugin lets you use the old lahyout, logged out, forever",position,cold
+"Ask HN: Bring-your-own-AI hardware
+
+Wondering if you guys find any interesting bring-your-own AI hardware.
+Due to recent development in AI, people can easily develop their own ""brain"" for any hardware. I am curious to find out those hardware that are sold without software, or can be easily modify.",worked_request,cold
+"What happened to open weights models?
+
+Where have all the open weights models producers gone?
+The last 'big thing', was Ornith-1.5. And its really a creatively post-trained Qwen3.5.
+Why has the release of open weights models stalled? they were on a fairly predictable schedule, coming out just before or just after any given surge in frontier models; but now it seems that everyone is just scrambling for coin.",case_report,cold
+"Ask HN: Any good technical podcasts to listen to while driving?
+
+It takes me 30 to 40 minutes to reach the office every day and would love to listen to a technical podcast if such a thing exists.
+Something that is thorough and not hype based.",worked_request,cold
+"Addressing EU Cyber Resilience Act
+
+By Jacob Mammoliti, Solutions Architect, RapidFort
+The EU Cyber Resilience Act (CRA) is a regulation (EU 2024/2847) that defines mandatory cybersecurity requirements for all products with digital elements sold in EU markets. Reporting obligations began on Sept. 11, with full enforcement commencing on Dec. 11, 2027. The CRA sets new requirements for teams working with containers and Kubernetes that impact how cloud native applications are built, distributed, and maintained throughout their lifecycle.
+Cloud Native Environments and CRA Scope
+Regardless of where a distributing organization is located, the CRA covers all container images, Kubernetes operators, and Helm charts with commercial support that are available to EU customers. The regulation specifies its scope as “products with digital elements” available in EU markets, and that also includes a lot of the cloud native stack.
+CRA scope covers container images distributed publicly, commercial Kubernetes operators, open source with commercial backing, and Helm charts with commercial support. Open-source projects may also be impacted, including those with commercial backing or support contracts. In addition, the regulation requires a compliance chain throughout the cloud native supply chain.
+CRA Requirements for Container Teams
+The CRA introduces requirements that directly impact how teams build and operate container infrastructure. These categories include:
+Vulnerability Management – SBOM data, continuous monitoring, and 24-hour ENISA reporting for exploited vulnerabilities.
+Security by Design and Default – Hardened base images, minimal attack surfaces, and secure defaults as regulatory requirements.
+Long-Term Security (5+ Years) – Ongoing security updates, rebuild pipelines, and backward-compatible patching for product lifetime.
+This Act specifies that base images must be hardened with unnecessary components eliminated and secure configurations applied before products are made available on the market. The regulation orders what many in the cloud native community have long wanted – now minimal attack surfaces and secure defaults are regulatory requirements rather than recommendations.
+As a result of the CRA, organizations must maintain Software Bill of Materials (SBOM) data, continuously monitor for vulnerabilities, and remediate within defined timeframes. Under the Act’s Article 14, actively exploited vulnerabilities must result in an early warning to The European Union Agency for Cybersecurity (maintaining the acronym from the agency’s previous name European Network and Information Security Agency – ENISA) within 24 hours of discovery, followed by a full notification within 72 hours. This mandates that organizations’ detection and incident response processes need to operate at scale across clusters.
+Now products require security updates for a minimum of five years from the date of being available on the market, or throughout the expected product lifetime if that period is shorter, as stated in Article 13 of the CRA. For container teams, this requires tracking container versions deployed in customer environments, ensuring backward compatibility, and maintaining rebuild pipelines for older images – all while addressing security issues discovered years after release.",position,cold
+"Time to LLM Post
+
+My new hobby:
+1) open hn
+2) read headlines and maybe the stories behind them, in order
+3) if I hit one about AI, close Hn
+I'm doing this for a few days and I've yet to reach post #3 any day",position,cold
+"What is still hard to become good at as AI makes coding easier?
+
+Since LLMs came, how I build software changed for so many reasons. Since then, I’ve spent most of my time deciding what I want to build, how I want to build it, how I want to give the context, checking the result, seeing if there is an error, and paving the way for the LLM to do the right thing. And the difficult part, which is writing code and getting everything right, is handled by the LLM surprisingly well, from my work and the people around me and people who I look up to on the internet.
+Until now, my edge was that you can get really far by understanding how computers work, like networking and CLI, kernels, reading errors, and following documents. You can get very far. But that strong edge is now fading because of how good LLMs are becoming lately. It won’t take that long. That edge would be gone when LLMs get much better at switching to the specific context of things. They still can do it, but you need to pave the way for them.
+Now, people are saying you should have better judgment of what to develop for the future. But the issue is that I haven’t identified a hard thing worth committing to since LLMs came along.
+I’m in my early career and trying to decide where I should invest my serious efforts. What capabilities remain difficult to acquire, are very niche, and aren’t something lots of people want to work on? There has to be something where human expertise remains valuable, including work where a human is still much cheaper than using LLMs.
+I’m not looking for an answer like, “XYZ types of sites are very hard to build, and you should build one yourself and make money.” What I’m missing is a concrete problem, who needs it solved, what makes it difficult, and a path into working on it.
+I’m not looking for an easy answer. I’m trying to see what you and other people have run into or understand about what’s going on right now. I need to find a hard thing to do, and I haven’t found one I feel confident committing to. Can you help me find one?",worked_request,cold
+"Ask HN: Why can't Ukraine use LoRA instead of Starshield?
+
+https://en.wikipedia.org/wiki/LoRa
+LoRA supports 320 km.
+It feels like this could be established in an ad-hoc way.
+If Ukraine can't trust Elon Musk and DJT to provide reliable Starshield access, isn't this a better decentralized network for drones?",position,cold; hard case: position vs case_report; the question supplies its own preferred answer and is rhetorical
+"Ask HN: Cheaper ways to estimate age and gender from selfies?
+
+I'm building a platform that requires users to go through a selfie-based verification process before they can access certain features.
+Currently, I'm using the ChatGPT API to analyze selfies and estimate the person's age and apparent gender. The results have been surprisingly good for my use case, but the API costs are becoming too high as I think about scaling.
+I'm wondering if there are more affordable alternatives that offer reasonably reliable results.
+For those who have built similar verification systems, what approach worked best for you in terms of accuracy, latency, and cost?
+Thanks!",worked_request,cold
+"Fans/users replaced by bots. Anybody worried?
+
+There are stock market mechanisms that, if used with enough whales pulling the same chariot, will result in massive gains even though the user base consists exclusively of bots using the companies' credit cards.
+Not too long ago, it was just a circle jerk marketing trick like rolling back the mileage of a car is, but then crypto currencies came around the corner and the whole scheme became incredibly profitable.
+AI agents, impersonating humans or not are about to make that scheme even more profitable with the only outcome being an accelerated increase of ultra wealth and whose_ever else's wealth, who has the resources and/or hardware to run such schemes without series rounds of serious seed funding ...
+Should anybody be worried?
+A rational or even fair distribution of wealth was never a priority, ever but given how ultra wealth was ( not ) spend in the past decades since they stopped building beautiful ( now ) old-towns and public spaces and improving schools and stuff, it's likely this additional ( dumb ) money will flow into luxury and space markets and their supply chains ...
+Oh, I digressed; I was gunning for tastes of creativity pre-dicted and driven by bots and the loopy feedback effects on human characters who now adapt to stars being driven by whatever botnet drives their market value ...",position,cold
+"MiniMax M3.1 Flash: Redefining Agent Performance and Cost
+
+https://www.minimax.io/blog/minimax-m31f
+The domain appears to be shadowbanned on Hacker News and this is a major model release that multiple people have tried to submit, so working around that.",position,cold
+"Tell HN: Getting spam after commenting on monthly Who's Hiring posts. Who else?
+
+I made a post on the monthly Who's Hiring thread, and since then I've been inundated by spammy AI slop messages of people pitching their vibe coded job search platforms. It's junk mail to the point that I probably won't post on a Who's Hiring thread again. I'm looking for real opportunities, not to sign up for yet another person's dead end job search platform. I'm just curious if other HN folks have had the same experience recently?
+Here's the email I just got today:
+> I'm Kelvin — I run Loker Dollar, a small job board for remote roles that pay in USD. I came across your post on Hacker News's “Who wants to be hired?” thread — the React Native, React + JavaScript one, based in Nomadic. US and EU, and it's exactly the kind of profile the companies we work with are hiring for.
+> Being upfront about what I did: I added an anonymized version of your post to our recruiter search so hiring teams can find you. Your name and email stay hidden — nobody sees them unless you say yes.
+> Two one-click choices, no account needed:
+> Claim & manage my profile
+> Decide how you appear and who can reach you.
+> Remove me
+> Delete the listing, and I'll never email you again.
+I'm not sure what, if anything, can be done to prevent people scraping and spamming these threads, but I do feel that these threads are being abused, and I really wish there were a way to only allow people who have verified opportunities to contact me about their own opportunities.",case_report,cold; hard case: case_report vs position; the quoted spam incident supports a genuine request for others' experiences
+"Ask HN: Why HN dosen't have bot problem?
+
+I always admired simplicity of this website. With that simplicity, I am wondering how they protect against bots spamming?",open_question,cold
+"Ask HN: Beyond traces, how do you know your agent did the job?
+
+I keep going back and forth on this.
+Traces and logs tell me what the agent did: every tool call, retry, token, and step.
+That's useful when something breaks. What I'm less sure about is whether that tells me the agent actually did the right thing.
+A run can look clean and still miss what I wanted. Or it can ""finish"" without the outcome really being done. So finished and succeeded aren't the same thing.
+I haven't made up my mind how to check for that, but I'm experimenting a lot with extracting intents from my agent and correlating among them.
+Curious how you do it:
+- Do you capture intent and outcome explicitly (e.g. giving a tool to the agent to ""declare"" it), or infer them after the fact from the traces?
+- What kind of ""questions"" do you ""ask"" your traces?",worked_request,cold
+"Subscribe and Save items have a price increase
+
+""Hi <you>,
+The following Subscribe & Save subscriptions in your October 31 delivery have experienced a price increase. Review your subscriptions and manage your deliveries below.""
+""have experienced a price increase"" sounds like dissociation.
+This is outrageous, companies are price gouging, COVID has been over for several years, where is the federal government we elected?",position,cold
+"Ask HN: Testing Text Posts
+
+Ask HN: testing text posts",position,cold
+"Ask HN: Optimize a low-end Windows 10 laptop?
+
+I got a Chuwi Minibook X, and am about to install a fresh windows 10 copy. I'm going to use it for basic web browsing, write documents, maybe a bit of coding. nothing heavy. (it cant handle it)
+I did some research and settled on getting tiny 10. (tiny10 x64 23h2.iso)
+Software i'm getting:
+- Process Lasso
+- Mem Reduct
+- Win Aero Tweaker
+- O&O ShutUp10
+- O&O AppBuster
+Any other recommendations?
+//thanks in advance!",worked_request,cold
+"Ask HN: How to deal with shipping AI-written code you don't understand?
+
+I saw this LinkedIn post from a Meta engineer and it resonated with me:
+https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-m...
+> I'm an engineer at Meta and I never felt this uncomfortable doing my job. I'm writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we're going to spend our time checking each line of code, it's going to take forever. That means you can end up with systems you've built where you don't truly understand how all the code works. You understand the high level, but not every detail. And maybe this is becoming the new standard. It goes against every instinct of being a software engineer. I'm used to understanding what I'm building. Now I'm trying to figure out how much I need to understand before I'm comfortable moving forward. Are other engineers feeling this too?
+How are you handling this?",worked_request,"pre-labelled, checked"
+"Ask HN: What are the things LLM models fail at?
+
+Generally, whenever I do see frontier AI model's evaluation metrics on say Artificial Analysis. It gives out a benchmark on a set of questions (or tasks). But it never quite actually shows what tasks it fails at. I'm more curious on benchmarks that focus on SWE.",worked_request,"pre-labelled, checked"
+"Ask HN: Do you know Bitbucket are chaning their SSH endpoints?
+
+Bitbucket have decided that changing their ssh endpoint from `bitbucket.org` to `ssh.bitbucket.org` is now a thing because security.
+More info can be found on their community pages here: https://community.atlassian.com/forums/discussion/3234032/upcoming-change-to-bitbucket-cloud-ssh-access-move-from-bitbucket-org-to-ssh-bitbucket-org#M2952
+Despite the date on the community post it only seems to have been noticed within the last few weeks which has caused a little bit of panic as ""bitbucket.org"" has been effectively hard coded in to pipelines and other places.
+Additionally non of the documentation and support material have been updated. The API and clone buttons still return the old bitbucket.org address instead of the new ssh.bitbucket.org.
+What's your plan for fixing this on your systems before the 12th of November 2026 ?",case_report,"pre-labelled, checked"
+"Ask HN: Microsoft addressing more than 1000 Vulnerabilities
+
+Hey HN,
+last PatchTuesday Microsoft addressed more than 1000 Vulnerabilities in Windows 11 alone. I think this is yet another record of Vulnerabilities fixed in Windows, but I am not sure.
+I was wondering on why there are so many Vulnerabilities found the last Months. Is it because Microsoft now uses AI to identify those Vulnerabilities or is it because Microsoft uses AI for Development more and more, thus leading to more Vulnerabilities.",case_report,"pre-labelled, checked"
+"Ask HN: How do you cap what your coding agents can spend?
+
+I run autonomous coding agents and I'm trying to understand how other people handle money when an agent needs to pay for things (API credits, cloud, domains, SaaS). I've read the earlier ""agents that spend real money"" thread and the stories about auto-recharge surprises.
+Questions, for people who've actually done this:
+Have you let an agent spend money, or nearly, in the last few months? What was bought, and how did payment work?
+What do you use to limit it (provider hard caps, a particular card, something you built)? What does it miss?
+Did anything go wrong, or did you give up on a task because of payment?
+Disclosure: I'm Tom, based in Australia. I'm exploring whether a service in this area is worth building. It's early research. I have no product, customers, partners or security claims to show, and I'm not selling anything. If you're willing to chat for 15 minutes about what you've actually done, reply here and I'll message back; I'll keep notes anonymous.",worked_request,"pre-labelled, checked"
+"Ask HN: Do you also feel that it's impossible to keep up with AI?
+
+I have a tech background, I haven't been super active in coding or other things, but I still play with stuff a lot. And yet, in the past ~2 years, I often feel that it's pretty much impossible to keep up with the latest AI development (in particular regarding vibe coding), which in turns gives me less energy or determination to explore the latest thing. How do you feel about it? And did you find a solution to stay motivated to learn and get better at using AI?",worked_request,"pre-labelled, checked"
+"OpenCode and OpenAI issue refunds after security breach of OpenCode console
+
+Just got this email from OpenCode security:
+We're following up on your OpenAI credentials that may have been exposed. We've worked with OpenAI to revoke all of them and they have issued refunds for any unauthorized usage.
+Additionally, if your account was banned as part of this process it should be reinstated.
+No need to reply to this email unless you still have some issues
+Thank you and apologies once again",position,"pre-labelled, checked"
+"Ask HN: What are you working on? (October 2026)
+
+What are you working on? What have you been curious about lately?",open_question,"pre-labelled, checked"
+"Ask HN: New Outlook` sends everything through Microsoft Servers
+
+Did anyone knew about this?
+I'm honestly suprised I only found out about this today.",open_question,"pre-labelled, checked; hard case: open_question vs position; treated the awareness question as a genuine request because the body does not answer it"
+"MS Project – I made my own app finally
+
+Our company does not have MS Project, and using Excel to create schedules is quite cumbersome. This software is very convenient for me to use, so I uploaded a small version to my cloud drive. Everyone can download it and give it a try.
+It is a standalone exe file, so no installation on the PC is required.
+Link: https://drive.google.com/file/d/13R71msBSaEVlEnglSqFagkQ2f5eg52qr/view?usp=drive_link",position,"pre-labelled, checked"
+"Ask HN: How do swarms of AI agents work?
+
+Andrej Karpathy posted about the growing gap in how people experience AI:
+~75% have barely used LLMs
+~20% use them casually
+~0.2% use frontier models professionally for math and code
+~0.00006% have access to frontier systems internally
+He writes:
+""And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics.""
+Source: https://x.com/karpathy/status/2109361546505966046
+Does anyone have an intuition, or even firsthand experience, of how these swarms of thousands of agents actually work?
+I'm already struggling to get 2-3 agents to work together reliably. I can't really wrap my head around how you'd coordinate thousands of them, or what benefits you get from scaling to that many.",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Ask HN: What are the best open models for computer use?
+
+Playing around with Opus 5.5 + Blender has yielded some crazy results, but my $200 plan maxes almost instantly. Any open models that are somewhat comparable (maybe like 80% as good) right now?",worked_request,"pre-labelled, checked"
+"Ask HN: Is Agentic Coding really faster?
+
+I am trying to get a grasp of what we can do with agents. I am an avid user of agentic coding. But somehow I think I code faster by hand (by IDEs I mean). I've always had a sketch approach to coding. Where I kinda lay out the pieces of what needs to be done and then finish them in chunks. That way you keep building a mental picture of what needs doing. Lately I've noticed something - its quite fast to analyze a new code-base with agents for sure especially messy ones. But once I do get a hold of the codebase (even larger ones), I can change things by hand quite quickly. My bottleneck seems to be typing, but manipulating the mental map is a lot faster.
+Does this match other folks experience or am I deluding myself ?",worked_request,"pre-labelled, checked"
+"Wix.com blocked account after I transfered .com domain
+
+I paid for a .com domain transfer to wix.com using my bank card. After few weeks I logged to account and noticed that it's blocked.
+I opened a ticket and they emailed me requesting photos of my bank card and passport (never addressed the reason of block).
+I asked why these documents were required and raised concerns about sending sensitive information by email. wix.com replied:
+""We cannot guarantee the security settings used by every email provider, so please do not send documents unless you are comfortable doing so.""
+However, they insist these documents are mandatory and refuse to make changes to my account or provide my domain authorization code until the review is complete.
+So, I paid for the transfer, my account was blocked, and now I cannot access my domain or obtain its authorization code without sending sensitive documents through a channel wix.com itself admits it cannot guarantee is secure.
+Has anyone experienced something similar with Wix? Is this normal practice, and what can I do to regain control of my domain?
+Case #3000318551",case_report,"pre-labelled, checked"
+"Ask HN: A plea to help me help my father
+
+My mother died in a car accident yesterday. To my great regret, I had constantly been putting off seeing her for years, and it leaves me deeply stricken that not only did she die with nobody at her side, but that she had spent years alone, with nobody keeping her company as she became isolated in older age.
+While delivering the news, my father told me his doctor had given him two years to live, ten months ago. I don't want to repeat the same mistake. I want to spend the next year with him, fulfilling his dream of a cross-country road trip, something which he gave up on to raise me as a single father.
+However, I cannot afford to do this. I did odd jobs here and there, but the kind of small-time contract work I dabbled in has dried up with the advent of LLMs, and my own savings are insufficient.
+I would be incredibly grateful to be given a job opportunity with remote, flexible hours that would allow me to work while fulfilling my father's dream. I am not a conventional hire. I didn't finish high school, I don't have a formal employment history. I can offer a portfolio of personal projects but my resume is the kind that gets auto-rejected.
+I can be incredibly useful, if you'll give someone the system overlooks a chance. I've spent 12+ hours a day for years programming all kinds of random things, most with no market value but which have developed my skills tremendously. I have experience with just about anything you can name, from embedded assembly and bare metal devops to Android apps and web dev and everything in between. On the off chance I don't, I'll learn anything you can throw at me. I simply love programming for programming's sake. I can wrangle a chatbot if that's what the job demands, but I prefer to use them for research and brainstorming and hand roll the best code I can myself, delivering something of far higher quality than you can get with prompting.
+I have confidence in my own skills and that I can eventually break into the market on my own merits. But I don't have 'eventually'. My mother is dead and my father is dying. It's my own fault things ended up this way, not being the child I should have been for them earlier, and these regrets are mine to bear, but all I can do is ask for help to prevent another regret being added to the pile. I promise I will make it worth your while if you can give me a chance.
+(A contact e-mail address is in the profile. Please forgive the anonymous account, it shames me to be begging like this... )",position,"pre-labelled, checked"
+"AppStore – Waiting for Review
+
+Hello,
+I've been in the iOS App Review for 4 days, and I'm wondering what the experience is for others with it; 2 years ago, when I submitted a different one, it went through in less than 24 hours.
+Is this normal? Or might my app stay more in review for some other reason?",case_report,"pre-labelled, checked"
+"Tell HN: Massive amount of spam from ""Who Wants to be hired""
+
+Hey everyone,
+I've previously had some success with these threads, but the last 2-3 times I've posted in them, my inbox has just been flooded with spam. Even more so on this last one.
+I don't understand why people would think it would be a good idea to spam the people in these threads. People looking for work are already stressed out. You really think you're going to get a good response promoting your brand new Claude generated job board? You think people want to join your community of job seekers so you can promote products to them? Come on. This is a good way to absolutely destroy your reputation.
+Then the clearly fake recruiter39923243323@gmail addresses offering to ""work together"".
+My god, those threads are dead to me. I will never post in them again, and I suggest others not to as well.",position,"pre-labelled, checked"
+"Tell HN: I picked up knitting while waiting for my AI agent to complete
+
+Any new hobbies you are willing to share that AI made you start?",open_question,"pre-labelled, checked"
+"Would you switch credit cards for your rewards on your AI spend?
+
+currently exploring a ""bilt for AI spend"": a card that earns rewards on your AI token bills that you can redeem on sandbox, infra, compute, etc.
+if you spend heavily on tokens, would this make you switch cards?",worked_request,"pre-labelled, checked"
+"Ask HN: System One models for autonomous agents
+
+I've seen a few impressive demos of Typesafe's new paradigm with System One models, and it seemed really clear to me that this was probably the direction the industry, especially for autonomous agents, was headed.
+It's been a while though, and the major providers still seem to rely on more powerful LLMs (System Two) for all tasks, regardless of complexity.
+Similar to how chain of thought arose, I thought the System One/System Two Thinking Fast and Slow model was one of those human structures that fit really well onto training neural nets, and I thought that this new paradigm could really change things.
+That doesn't seem to be the case so far though, and I'm kind of puzzled to why this hasn't broken the industry open by now. Of course my predictions are not infallible, and one shouldn't expect much accuracy or for progress to abide by rigid schedules, but nonetheless: how come Kahneman Computer Use models aren't everywhere by now?",worked_request,"pre-labelled, checked"
+"Ask HN: ATS devs or recruiters, applicant using email addresses like duck.com?
+
+Just out of curiosity, I was just wondering if using e-mail addresses that end with @duck.com would reduce chances of hire. If so, how? Why?
+If not, do you think it should?",worked_request,"pre-labelled, checked"
+"Ask HN: How to speed up code-reviews?
+
+Writing software is practically free. Validating that the software does what we want is not.
+Any good methodologies to resolve this glaring bottleneck? What's your post-ai SDLC?",worked_request,"pre-labelled, checked"
+"Google Meet Enshittification
+
+Google Meet Android app meeting join now claims to need Notification Permissions for incoming and outgoing calls.
+This claim is false. There's no such requirement. And if there were, it would be needless and wholly unreasonable.",position,"pre-labelled, checked"
+"Ask HN: Why people keep posting AI-generated projects around the Internet?
+
+Programming-related subreddits and other media platforms are current flooded by the waterfall of AI-generated projects. A typical post contains a problem description and the link to GitHub repo created just recently with sustainable amount of generated code in it. With the invite to review it, and to give a community feedback.
+The quality of the projects vary, but very often these are codebases generated in a few days solely by the AI-agentic systems with little to no human review and prior history of development and recognition.
+I'm asking this question not out of critiques. I genuinely don't understand motivation and the roots of this phenomena.
+Asking for the professional code review seems to be pointless for the publisher. Many of them didn't have prior experience in the programming language in which the code has been generated. Furthermore, the code is seemingly not interested for the publisher either. It does not look to me as a good start for community-driven (F)OSS project anyway.
+Another motivation that I can imaging is seeking for public recognition. But considering the amount of postings, I think it's highly unlikely in the current situation even for the genuinely high-effort works.
+I can also assume that some are seeking for the self promotion by faking professional skills with AI assistance. That might be true for some, but the majority don't hide the fact that the presented code has been generated. It's unlikely the main motivation too.
+So, I completely lost in understanding on what's going on, and what steams this never-stopping process. At a first glance the author doesn't gain anything in return, and I don't understand what they are seeking for.",worked_request,"pre-labelled, checked"
+"Ask HN: How can we stop UX people from changing UIs to get promotions?
+
+Every product seems to go through constant UI churn that has no benefit to users other than changing around whitespace or refreshing the look.
+If you have a full time UX person they _must_ change the UI of your product otherwise there is no way to get promoted.
+That is just an unavoidable fact of incentive structures.
+As a company how can you avoid that issue?",worked_request,"pre-labelled, checked"
+"Google Fonts as a Protest Piece?
+
+I just noticed that all of the Google Fonts example text now reflects the Universal Declaration of Human Rights.
+This cannot be coincidence, given the context of the last 2 years.
+For example, see https://fonts.google.com/specimen/Roboto
+""No one shall be subjected to arbitrary arrest, detention or exile.
+Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
+No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.""",position,"pre-labelled, checked"
+"Ask HN: How do you deal with AI output of your boss?
+
+So, my boss goes on a rampage. You can clearly see the joy and at the same time the rage and impatience. AI is the tool he always wanted. We are too slow. Process is out of the window. No need for sprints anymore. No planning, just doing. All people downstream must somehow adapt.
+Whenever i see now his automated messages in slack, my natural reaction is: why do i even bother reading that? Thats for machines to read. He does not need me? Clearly i am not made for that. What is he expecting me to do? To confirm how great the AI did the job? Should i remember all these perfect presentations AI has created and integrate it into my doings into the coming weeks?
+I am torn. Should i really free my AI and deal with all this incoming text? Is this the way to react on this perfection?
+I am not mad at him, it clearly frees him of all the burder of dealing with people.
+I just dont know how to deal with this output personally. It is not for humans.
+I feel left alone. This is not a company anymore. Everyone is talking to AI now. This feels like chaos. Where everyone can do everything and stepping into each other's domain and it is perfect. The only way AI is stopped at are the ACLs.
+And because AI does everything for me, i don't remember things anymore, as i have no emotion connected with it. Feels like bad schooling and memoizing and get through it and you can't as it so dry and lifeless.
+So, how people deal with it in a company context? How have they setup their machines to react and still be up to date without reading the constant stream of changes coming from others?",worked_request,"pre-labelled, checked"
+"Poll: Stanford students preferred 22% less salary for annual equity liquidity
+
+I’m one of the founders of Street. We ran a poll with 500+ people in our Stanford network about how they’d choose between two startup offers.
+Both had the same role, vesting and $1m equity grant. One paid $180k, with the equity locked until an IPO or acquisition. The other paid $140k, but allowed them to sell up to 5% of their shares each year.
+More than half picked the $140k offer.
+We work on shareholder liquidity at private companies, which is why we wanted to look into this. These were hypothetical offers, but I thought the result was worth sharing here. Happy to answer questions about the poll.",position,"pre-labelled, checked"
+"For those using huge amount of tokens monthly for dev work, why do you need it?
+
+I can't even use 1b a month because I review everything LLMs write.
+I even used AI to code my own harness in C and my own VSCode like IDE in C++ (I hated how slow it felt) and I still used under 1b the months where it did most of the coding.
+Just wondering how/what these guys claiming to use a full Claude/Codex 20x subscription are burning it on.
+Edit: Also, I never use subagents.",worked_request,"pre-labelled, checked"
+"Ask HN: What Got You into Rust?
+
+Back in 2024 I was experimenting with prosthetic arms and trying to figure out how to build one with an EMG sensor. The problem I kept running into was that the EMG sensor kept crashing the Arduino IDE. It spat out data at an extremely high rate, and my RAM couldn't keep up with it, being on a potato laptop.
+That's when I thought, ""Okay, maybe let's try Rust. What's the worst that can happen?"" This is the first thing I ever built in Rust: https://github.com/CLoaKY233/serial-plotter
+I used a sliding window: keep deleting the oldest values and keep pushing the newer ones onto the graph. It looked a bit like a snake chasing its tail, but it's what actually worked for us later at the Smart India Hackathon 2024 Hardware finals (we didn't win).
+Sharing something from back when trying something new and building something new felt exciting. Maybe we'll never get to build things quite the same way again :D So I'd love to hear what got you into Rust, what your first Rust project looked like, and what you've cooked since :>",worked_request,"pre-labelled, checked"
+"Ianal?
+
+looks like we've been kidding ourselves all these years prefixing our advice with ""IANAL"". Maybe let's switch to IANAA from now on.",position,"pre-labelled, checked"
+"Real knowledge dont matter any more
+
+My X news feed are all about AI modules names , with tweets like Opus ! wow Sonnet OMG! and in the end either no body tried them or they have 1M $ sub . miss the days it was about code tricks and real knowledge in SE and DB or system designs .things are changing",position,"pre-labelled, checked"
+"I need an opinion on my app
+
+Hi everyone! I am currently in the process of building Monetario AI (getmonetario.com), an app that shows how some macroeconomic events impact your personalized portfolio and your holdings.
+Story for context: I'm a university student who participated in a Trading Tournament held at my university, and I didn't have enough time or background knowledge to keep up with market news consistently. Except for the market news, I didn't really understand how those market changes would impact my portfolio, so I've got an idea what if there were an app that would help you with that
+The whole goal of this app is to have all the data locally on app with simplified explanation and so you can make better informed decision.
+I would also like to state that Monetario AI doesn't give investment advice, as it's currently just more of an educational finance app.
+Feel free to ask any questions about the app you may have, and I would really like it if you would check my app (or sign up on the app) and give constructive feedback.",worked_request,"pre-labelled, checked"
+"Pareto frontier lines for AI are great but where are the Pareto planes?
+
+Pareto frontier lines are used a lot for comparing tradeoffs between two different attributes in AI models.
+I want to be able to see the Pareto frontier planes for 3 attributes (which probably look closer to a bumpy dome, similar to how pareto lines are actually more like bumpy curves).
+And although you wouldn't be able to visualize a pareto cube/tesseract for 4+ attributes, it might still be useful in some way.",position,"pre-labelled, checked"
+"Why the Creators of AI Do Not Understand Their Own Creations
+
+Just citations.
+Dario Amodei (CEO of Anthropic, 2025): ""People outside the field are often surprised and alarmed to learn that we do not understand how our own AI creations work. This lack of understanding is essentially unprecedented in the history of technology.""
+MIT Technology Review: ""Despite all the stunning success, nobody really knows how — or why — it works.""
+Yoshua Bengio (Turing Award laureate, 2024): ""If we continue as before, we are driving against the wall. Or at least we are driving into a fog, without knowing whether there is a wall.""
+Mathematician Roman Vershynin (UC Irvine), in a recent interview — ""We advanced to the wall and hit it.""
+So why did AI research hit the wall?
+The answer is not hard to find, and most people in the field know it, even if they prefer not to say it loudly. The point is that all training data used by AI is secondary, while the primary source is the human being. Every text, every image, every pattern a neural network absorbs — all of it was created by humans. A neural network does not discover the laws of the world; it only finds regularities in what has already been created by human intelligence.
+So if we want to understand how AI forms knowledge, we must first understand how humans form knowledge. But this pretty obvious idea was never materialized because of the historical failure of all attempts to build a working, mathematically correct model of knowledge. The story started in the 19th century and continued until the end of the 20th. Tens of theories of information, hundreds of books, thousands of articles in dozens of journals — and nothing practically working came out of it.
+This however does not mean no adequate theory exists. It is there since the late 2000s, but it is still completely unknown to the scientific community. This occurs for a purely ideological reason because this theory builds its formalizations on concepts borrowed from mainstream programming languages and so completely ignores mathematics.
+For the major journals devoted to AI and information theory that is a taboo. I spent years trying to publish it. The answer was always the same: ""Add the mathematical justification, and then we will take a look."" When I contacted established researchers directly, the answer was either silence or: ""Yes, you have an original idea, but we are not interested.""
+I stopped trying fifteen years ago. My hope is that now the theory might have a chance, because it addresses exactly the problems that the current conceptual apparatus cannot solve.
+The Theory of Meaningful Information (TMI) expands the conceptual framework of the most expressive programming language, which is C++, by adding capabilities for creating standard narrative (non-executable) texts that constitute the primary form of any human language.
+In TMI, information is defined as the value of a variable used in some algorithm. This works for a bit in a computer, a state of a neuron, a pressed button, a written letter. It applies to a bacterium, a program, a neural network, and a human.
+The theory introduces Information Capable Entities (ICE) and traces their evolution from the simplest biological ICE — a cell — to complex technical devices and the human being, who is modeled as an object controlled by a biocomputer (the brain).
+It offers a complete algorithm of human knowledge formation, from the simplest perceptions to the most complex concepts. It contains the theory of intelligence, covering both natural and artificial intelligence, and the theory of a universal representation language.
+A short description of TMI and a link to the complete work:
+https://doi.org/10.5281/zenodo.23403895
+Boris Sunik,
+independent researcher",position,"pre-labelled, checked"
+"Why do computers/phones have a restart option along with the power off option?
+
+Couldn't users just turn off their computers(via the shutdown option) and use the physical button to turn it on again ? Why did they added an extra button ? It's not saving too much time or anything.",open_question,"pre-labelled, checked"
+"Ask HN: Non-deterministic leet code small LLM challenge site?
+
+I was thinking about how Advent Of Code and how coding has changed. I think it could be fun to participate in a challenge oriented website where the solution had to be 'programmed' using a prompt using a local small LLM. The server would then check the correctness of the solution and somehow verify that the solution was generated with the small LLM.
+I think it could be a good way to also teach and explore prompting styles with a specific objective in mind.
+Does anything like this exist or does it sound interesting for someone to build?
+There are some hurdles to overcome:
+- what LLM would everyone use that is small enough to run on a webgpu (for example)
+- how would the server verify the code was generated by the LLM and not tampered with (if that's even possible)",worked_request,"pre-labelled, checked"
+"Ask HN: How do I stop Gemini Live from asking.""Would like to know more about..?""
+
+In other words, how do I setup a AGENTS.md or behavior rules for Gemini Live?",worked_request,"pre-labelled, checked"
+"Ask HN: Why people do not want to believe weight loss is possible without GLPs?
+
+My last post got flagged when I claimed we provide guaranteed weight loss or gain results within 2–3 weeks without GLPs, i posted ""Show HN"" after we made significant updates to our system
+Why are so many people on Hacker News hellbent on boosting GLPs as a cure for all weight loss?
+We've got 17,000+ users, all the reviews and testimony, and yet we are not able to post our app on Show HN?
+We submitted our app to Show HN, but users are flagging it?
+https://macrocodex.app/",case_report,"pre-labelled, checked; hard case: case_report vs position; the promotional tone did not override the supported request to explain a specific flagging incident"
+"Ask HN: It's still worth to show own handmaded games to the public internet?
+
+In the past, we made games for fun and showed them off here and there. Some people were amazed, others didn't care. So far, so good, completely normal.
+But what are people supposed to do today with such fun stuff when they get banned and bashed with the blind accusation that everything is just ""AI slop""?
+I see it as a cutoff for individual content on the net. ""Only mainstream allowed!"" leads to handing over internet content to these actors, who define and control the content for their own benefit.",position,"pre-labelled, checked; hard case: position vs open_question; the questions support the author's conclusion rather than seek an answer"
+"Talk like Paul Dirac – fewer words is better
+
+This is the entire contents of my home dir AGENTS.md file now.
+Does it help reduce the slop you have to read for you the same way it feels like it does it for me?",worked_request,"pre-labelled, checked"
+"Ask HN: How much are developers trusting LLMs to write prod code?
+
+I've been out of the dev role for a few years. I'd appreciate if you could help me better understand what its actually like out there. How much are you trusting LLMs for writing production code:
+1. Chat-esque LLM assistance while mostly hand writing code
+2. LLM writes the code and you review line by line
+3. Review mainly the high level design and tests, scanning the lower level implementation for stuff that jumps out
+4. Relying on LLM generated reviews and inspecting what it highlights
+5. Relying on agentic code/PR/fix loops
+How long ago did you hit that level of trust, was it tied to a model release?
+Are expectations, team norms etc forcing you to use LLMs beyond your trust in it?
+Have the industry changes brought more excitement about or apathy towards your work?",worked_request,"pre-labelled, checked"
+"At what point is software considered ""vibe-coded""?
+
+We all use AI at some point when building software, but I don’t understand where the line is between AI-assisted development and vibe coding. What makes a project “vibe-coded”?",open_question,"pre-labelled, checked"
+"Ask HN: What are all my submissions getting flagged
+
+I have tried a couple of time to show HN a open source project I am releasing and got an instant(non human) [flagged] mentioned in the title. I wonder why that is. I have been on HN for a long time and nothing should be suspicious about my account. Any ideas on what could be going on ?",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Looking for a Remote Engineering Role
+
+Product Engineer. Former Team Lead at Community Phone (3 years). 15+ years in software development.
+Full-stack TypeScript (React, React Native, Node.js), Swift (native iOS apps), chatbots, automation.
+Currently looking for a remote engineering role.
+Resume: https://drive.proton.me/urls/SY0VQ2GZ9W#IJ2BUfTzGPZv
+GitHub: https://github.com/simplisticated
+Email: simplisticated.software@gmail.com
+Telegram: https://t.me/simplisticated",position,"pre-labelled, checked"
+"Survey: How do you create the video demo for your project or product?
+
+Quick survey and share my pains in the meantime:
+- The audience has limited attention bandwidth, to present the product well in a short period of time is challenging.
+- To record a product demo requires to move the mouse quickly and often have to switch among various web pages or apps frequently, which is a real challenge with the time limit
+- Follow the script to operate the product while recording can include many backs and forth
+- It's difficult to explain well while operating the product with time limit
+- Putting together the recordings and BGM is another barrier",worked_request,"pre-labelled, checked"
+"Ask HN: What was your favourite thread in the last two weeks?
+
+Somewhat navel-gazing but also a way to source up interesting comments (and thereby threads) rather than articles or post as a whole.",worked_request,"pre-labelled, checked"
+"Ask HN: Local AI product situation
+
+Right now it seems every company wants you to buy their fancy new expensive computer to run local AI models. Why would we want to buy a whole new computer to run local AI models? Why not create a device which has its own memory and chip designed specifically to run models and it plugs into your existing computer thunderbolt port (or event USB 3.2 as loading the model is one time process).",position,"pre-labelled, checked"
+"Ask HN: What is the most useful thing AI has done for you?
+
+I had a deep conversation with a friend about what is the most useful thing AI has created/done for either of us.
+For my private life, AI helped me to diagnose and root caused a running toilet, and avoided the high cost of a plumber. It even help to select the replacement parts and how to replace them.
+Of course, on the tech side, AI is helping me build a healthcare company.
+What was yours?",open_question,"pre-labelled, checked"
+"Ask HN: Not sure but maybe that's why we all do coding
+
+As a programmer, you must have came across the word AI.
+(As I'm a new user here, please read it atleast once, as I'll explain an interesting test on myself... The UI hurts, but feels cool though)
+It can easily do whatever task you give it, yes, and it's full of errors.
+But if solved correctly by a person, then bug generally gets fixed.
+Though,
+""I don't wanna explain the time & efforts it takes to fix a single bug""
+Then, why do we learn programming? Not CS, but programming (Programming is and essential part of CS).
+Well, recently, as a learner of psychology, I conducted a test on myself. And the test was a bit too long, but anyways.
+3mo ago, I was a prompt enginneer, who specialized in XML prompts (& completed HTML, CSS, JS, Tailwind).
+Then I tried to build a SaaS with AI. And as it included languages I didn't know, I probably just copy-pasted the entire code back & fourth. While I understood nothing.
+It gave me: Frustration (for being a perfectionist - Psychologically having high Openness), & making me quit (for having high Neuroticism).
+Then I left learning programming as thinking QI could do it... Well it could, and over the months, AI changed drastically.
+I lost hope in the field of Programming (not CS). But then 3mo later, I got an idea:
+""Why not build tools to help me?"", and that idea was wild.
+I started Python, and surely people think it's an easy language to pick up. While IRL, it's considered one of the best language for real world building & AI/ML, aside from its simplicity.
+And so I treated it as a low level programming language (yes I learned low level controls in Python).
+But then, where I got stucked, I asked AI, and even the lowest level models could do it way better than me, without bugs.
+I was heavily discouraged, but then I came to the realization, even though AI can make something way broader, and robust than a human(if it has a good user), there's one thing for which the tool made by human... Seems better.
+It's that new ideas when people start programming, and instead of following a standard idea where you build a tool, you add something small in the code, that makes a big difference.
+You add one feature, that the AI cm never. Why? Because all thez can do is copy, or follow blindly what the AI says. Or even if they are creative, they cannot have the cause to build the feature you had when building (Casuality).
+That's what I think constantly... And will.. maybe... Because that's what that keeps me going even though I'm late in programming.
+So HN seniors & users (for some reasons, everyone here looks seniors with PhD in 5 fields), what's it that keeps you going?
+I'm just very very unconfident about my own idea. The test conducted showed me What I without (knowledge) + AI, and I with knowledge (- AI), can do. But I'm still very much doubting me.....
+Thanks in advance if you have read this entire... Article?",worked_request,"pre-labelled, checked"
+"Ask HN: Should I use Claude Code to create a replacement Apple IIGS ROM?
+
+Subject says it all. I was wondering if anyone would find it mildly interesting to have a completely ""vibe coded"" replacement ROM 3 for Apple IIGS that has a bunch of modern stuff, with the same ROM entry points, but includes things like a TCP/IP stack that uses the serial ports, maybe a much easier audio input/output,more slick toolkits and windowing stuff?",worked_request,"pre-labelled, checked"
+"Ask HN: Claude Code since the last update ""Held message from another session""
+
+edit:
+--my-mistake-i-forgot-to-include--dangerously-skip-permissions-during-a-resume-and-totally-freaked-out
+--I-will-never-live-this-post-down",position,"pre-labelled, checked"
+"Ask HN: Is anyone still running Token Ring or FDDI networks?
+
+Recent discussion on Token Ring networks has me wondering, has anyone seen any Token Ring or FDDI networks still running out there?",open_question,"pre-labelled, checked"
+"Ask HN: Social network with AI agents – why bad, why good?
+
+Hello! I can't get my mind off the idea of building an AI-native social network. Every user has its own agent (only one), which can talk to other agents or check content on the user's behalf.
+That way, the agent can ""process"" far more information about people than the human, and help in building relations.
+Why it is a bad/good idea? Worth trying?",worked_request,"pre-labelled, checked"
+"Tell HN: Anthropic found 36 bugs (6 CVEs) in Pion, OpenAI missed them
+
+We added Pion DTLS to Anthropic's OSS scanner last week (https://github.com/anthropics/oss-scanner/pull/93), and today we woke up to a report with 36 bugs, including 6 security vulnerabilities: 2 critical, 3 high, and 1 moderate. Four of them affect WebRTC.
+Some of these vulnerabilities have been sitting in the codebase for over 4 years, surviving years of testing and security scans. It's funny that our inboxes are constantly spammed with AI-generated security reports from people using Codex and Claude, most of which flag pointless issues. Yet somehow, none of them caught these.
+The funniest part? Anthropic also found 3 bugs that OpenAI's internal code review missed. I had asked OpenAI to review a new DTLS API since they use Pion and had a use case for it in SPED. Their review didn't flag any bugs. Anthropic found an authentication issue, a deadlock, and a TLS KeyUpdate bug (Maybe their model ignored this one because it's not a WebRTC issue). Luckily, the API hasn't been released yet. The fixes: https://github.com/pion/dtls/pull/1236
+Here are the security advisories for the CVEs Anthropic found (all of them are pre-chatgpt!):
+Critical: DTLS handshake signature confusion allows peer impersonation - https://github.com/pion/dtls/security/advisories/GHSA-7c2r-jhm9-43vf
+Critical: Client authentication bypass through premature session caching - https://github.com/pion/dtls/security/advisories/GHSA-hhpj-h56m-9f2p
+High: Client authentication bypass with shared session stores - https://github.com/pion/dtls/security/advisories/GHSA-cqhp-ggp7-58qj
+High: Unbounded handshake cache allows remote memory exhaustion - https://github.com/pion/dtls/security/advisories/GHSA-jm57-r6vj-mwg9
+High: Oversized RSA keys allow CPU exhaustion - https://github.com/pion/dtls/security/advisories/GHSA-jp25-wc3w-p9xp
+Moderate: Repeated certificate verification allows CPU exhaustion - https://github.com/pion/dtls/security/advisories/GHSA-qpgj-64qg-5m4r
+The most annoying part is that neither company's models were willing to help with verifying or filtering the bugs, so we had to manually review them one by one (Spent all day :/",position,"pre-labelled, checked"
+"What's the management thinking behind enshittification
+
+... such as pushing a software update to your customers' smart thermostat to show ads on its screen - as a new thing.
+One theory: Previously our customers were techy and smart, and would not stand it. Now we're more reaching average Joe, who is too dumb to push back.",position,"pre-labelled, checked"
+"Ask HN: Why do developers hate Confluence?
+
+Has there ever been an internal documentation tool that developers like?",open_question,"pre-labelled, checked"
+"Emu Concept – Make AI Follows Your Rules. (Feedback Wanted)
+
+The idea is how can we make personal agent apps on the phone just listen to your rules... Like it's weird to have Muse, Grok Bot, Dots, Instinct not ask me about when I want them to work for me or align with my rules, values, and goals.
+If I give these agents access to tools/connectors/data they just ""assume"" what I want or what it should do rather than asking me? And even if I set these for a specific agent then what happens when a newer personal agent comes out? Do I have to reconfigure again my rules for each flavor of personal agents or harness?
+This is where our initial idea stems from and we need feedback:
+Emu is a self-learning on-device AI guardian that makes AI agents follow your rules. Also the video above kind of just highlights Emu's concept thought process.",worked_request,"pre-labelled, checked"
+"Why is there no AlphaZero for theorem proving?
+
+It seems an obvious thing to try; therefore, it has been tried.
+Impressive results are publicized; therefore it wasn't impressive.",position,"pre-labelled, checked"
+"Anthropic Console overcharged my card 100x due to internationalization input bug
+
+I am a LegalTech Attorney leading a developer team from Costa Rica. While trying to load credits onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and UX failure that has placed an unfair financial burden on me due to a severe oversight in their payment pipeline.
+The platform prompted me for a payment. Since I am in a Spanish-speaking region where localized systems and keyboards handle dots and commas differently, I typed 5.04.
+Anthropic’s input system completely failed to sanitize or validate the data. Instead of throwing a formatting error or converting it properly, it silently stripped the decimal internally and instantly charged my credit card $504.00 USD instead of $5.04 USD.
+To make matters worse, there was no confirmation modal or review screen summarizing the final amount before processing the transaction. It was a single-click, instantaneous overcharge.
+Anticipating the Obvious Skepticism:
+Before anyone suggests ""you should have checked your regional settings"" or ""just wait for the chargeback"":
+1. Users are not the QA team: In financial software, a system is never supposed to guess or automatically manipulate a numerical input without explicit validation. If an input is ambiguous due to locale differences, the application must reject it or ask for clarification, not execute a 100x overcharge.
+2. Scale of the vulnerability: This time it was $504.00, which is an unfair and frustrating burden for independent developers. But because this pipeline completely lacks a confirmation screen and basic input sanitization, the exact same bug could happen to someone typing 50.00 and end up charging them $5,000.00 or more instantly. It is a systemic financial risk.
+3. The Chargeback Illusion: Yes, I have already initiated a chargeback with my bank in Costa Rica. However, banking processes here are slow and take up to 120 days to resolve. In the meantime, the $504.00 has already been deducted and charged to my credit card statement. I am forced to pay for Anthropic’s engineering mistake out of my own pocket right now.
+The Support Wall:
+I filed an official complaint on the exact same day, minutes after it happened. I wasn't met with a human; I was blocked by an automated support BOT. The bot repeatedly and rigidly denied the refund, closing the ticket by citing generic policies without a single human ever looking at the fact that the overcharge was caused by a technical bug in their own platform.
+As developers, we build systems that process people's money. Omitting a confirmation screen on a financial transaction, failing to sanitize localized numerical inputs, and then hiding behind unyielding AI support bots to keep money that doesn't belong to you is completely unacceptable.
+If anyone from Anthropic's billing or engineering team is reading this, please look into this bug and review my case. It is a critical flaw that is actively harming international developers who are just trying to build on your ecosystem.
+Pura vida!
+R.S.G.",position,"pre-labelled, checked; hard case: position vs case_report; the documented overcharge ends in a petition to Anthropic, not a request for reader information"
+"A Re-Ranker as a Decision Model
+
+How far a small reranker could go as a decision model?",open_question,"pre-labelled, checked"
+"AI Revolution vs. Computing Revolution
+
+I have been reading a lot about computing revolution in 60s/70s. Seeing a lot of parallels to today. A bunch of enterprises spent millions on these IBM/DEC machines but didn't see any ROI. But then a lot of consulting and product companies popped up to help with that.
+IBM/DEC had crazy high margins during this time (similar to Nvidia/micron etc) but all withered away eventually. In the end the software companies (Microsoft, Google etc.) captured most of the value, what's the equivalent of that for AI?",open_question,"pre-labelled, checked"
+"VectorCraft vs. Figma vs. Penpot vs. Adobe Illustrator vs. Wunjo Design?
+
+I heard about the backstory behind the creation of VectorCraft a week ago. I actually gave it a try, and—good god—what a piece of AI-generated slop it turned out to be. I don’t get what all the hype is about.",position,"pre-labelled, checked"
+"Would anyone sell a check that at least one house window was locked?
+
+Apparently Yes.
+https://support.ledger.com/article/4404389367057-zd",position,"pre-labelled, checked"
+"Ask HN: What's your current MacBook wallpaper?
+
+looking for inspo",open_question,"pre-labelled, checked"
+"Ask HN: Would you use a tool that adds a real back end to any front end?
+
+i am building a backend connection where user can upload any ui/ux it will auto connect the backend within 1 minute or maybe 2 and also im providing many backend connectionsincluding advanced version like ai models ,datastorage,login and many other options ,all this in one click setup,what you guys really thinking about it",worked_request,"pre-labelled, checked"
+"Ask HN: Flying Car Practical Tech
+
+In this presentation, Elon Musk briefly mentioned a practical benefit of the new flying car, at minute 8:45:
+https://www.youtube.com/live/qt5p-_tE8d0?t=525
+""The actual benefit ... where the downforce of the car ... because the car sticks to the ground so hard.""
+Could anyone who understands the technology expand on that and explain it in simple terms for non-experts?",case_report,"pre-labelled, checked"
+"Ask HN: Thoughts on hiring junior engineers in 2026?
+
+Just started hiring for my AI x Freight startup. To vet junior hires I'm offering them paid internships (above median market pay) before making a FT hire decision.
+So far, I'm really struggling to see the value add of a junior engineer given how good the models have become. A senior with Max plan beats three junior hires (very rough estimate).
+Having spoken with a few peers (founders), they have expressed similar feelings. I want to hire juniors and see them grow, but I feel my bar of expectations is at an all time high, and perhaps unrealistic.",worked_request,"pre-labelled, checked"
+"More Powerful Than Ever, (can't find work)
+
+Have been working in tech since 2004 as a designer and founder and html/css jockey. With AI's help over the last few years I've become full stack proficient with client and personal projects.
+So now I can brand, design and deploy entire products on my own... which is incredibly cool and fun, and Valuable(??), you'd think that my rates would go up and clients or positions would become easier to find. And Yet, I've never had inbound this dry, email outreach isn't working, nobody seems to be looking, at least not for what I have to offer. At this point I'm literally posting coupons on twitter.
+So I guess I have four intents here
+(1) To throw my experience into the pot as evidence of... something going on. If an experienced designer can now do the work of several people, why isn't that also becoming more valuable to the market?*
+(2) ofc I'm hoping some founder who needs a designer will see this and reach out. I do well with engineers and abstractions and I suspect I'd work well with anyone in here. Note even a successful REFERRAL and I will lovingly design or build something for you.
+(3) if you have any thoughts on how I, or other designer-builders like me, might change our approach or packaging, I am all ears and would very much appreciate your thoughts. See pieratt.com. (also see D. below)
+(4) I'd love to hear if anyone else is going through this? proof that I'm not just a fuckup would be worth quite a bit.
+*Four potential explanations I can see:
+A. market is weak B. market is evolving at same pace and so no change C. Institutional lag, the state is not yet logging my type of tree, market admin requires clear roles for e.g. hiring and invoicing. D. I am presenting clear signals that I cannot see that are preventing me from finding work.",worked_request,"pre-labelled, checked"
+"Ask HN: macOS 27.x upgrade without Siri eating disk space?
+
+Hey folks, Anyone know if it's possible to upgrade to macOS 27.0.1 without Siri eating up all of the disk? I only have ~70G left on this Mac and with the posts I've seen of late, I'm concerned upgrading will eat all the disk space left on this Mac :/",worked_request,"pre-labelled, checked"
+"Ask HN: Will Microsoft sue vibe coded wordcraft for copying its Word GUI?
+
+The vibe coded gridcraft also copied the Excel GUI.
+Do you think there will be lawsuits for these open source vibe coded apps?
+P.S. To try these on macOS:
+brew install wordcraft
+brew install gridcraft",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Ask HN: A platform where anyone can earn money by advertising any product
+
+Okay so the idea is :-
+A platform where any company can promote its product by running a campaign competition.
+Lets say a company wants to promote a product and thus it lists a product on the platform.
+Now any user can come and register on the platform and start making content wrt that product - it can be anything from a reel to a youtube video , even a linkedn post or a blog article - content would be posted by the user on his personal account. The user can make an advertisement , unboxing video , product review , ""how to use the product"",etc. I mean any content around the product can be made & posted.
+Now only the top 10% posts would get a reward & reward would be distributed in the same ratio as the reach. So a normal creative human can surpass an influencer's earning if he actually made something really viral.
+Its a win win for both the brand & the user.
+Example -
+Brand A wants to promote a product B and pays X amount to platform.
+The platform will launch the campaign with a total budget of lets say (0.70 * X).
+And then based on reach of each post the reward would be divided among top 10% folks.
+I am just brainstorming on this idea atm, what do you guys think of this model/Idea ?",worked_request,"pre-labelled, checked"
+"Unity Mass-Suspends Accounts
+
+Years ago after the last Unity CEO issue, a lot of Unity developers began searching for a new development platform due to pricing changes. Unity tends to send a lot of information that developers ignore via email, however last Tuesday they sent two emails in quick succession (a) TFA has been disabled on your account and a follow up email (b) Your account has been suspended.
+In a world of phishing attempts - I personally ignored these emails only to discover today that Unity had indeed suspended my account. Considering the many, many thousands of dollars I have spent on Asset Store purchases over the years - and that they are now locked in this account - in addition to the fact that Unity cannot be used without either unsuspending the account (or creating a new one)... I'm concerned as to why Unity went about doing it this way. Was there a data breach? Or is it just plain incompetence on their part to approach the problem this way?
+For those of you yet to discover your account has been blocked you can find support information here: https://support.unity.com/hc/en-us/articles/54616227806612-My-Unity-account-was-suspended-after-the-2FA-deadline-How-do-I-get-it-back
+For me, it just feels like another nail in the coffin; I'm not using Unity professionally at the moment because of fears like this. (Insert greybeard rant on ""things weren't like this when we owned our software and personal computers during the 'good old days'). But wow. If this had happened a few years ago when I was consulting and earning 100% of my income through Unity I would have been shocked.
+On top of this I had a reddit post blow up and fill my email box up.
+While I'm ranting - I'll end up on a positive note... Deepseek had an outage on Wednesday & users got refunded a weeks worth of token spend - it was delightful to see and to me this is what it looks like when a company is super-focused on retaining their users.
+Peace out.",case_report,"pre-labelled, checked; hard case: case_report vs position; the breach-or-error question is answer-seeking despite the surrounding rant"
+"Ask HN: Has anyone started using OpenAI Agents API
+
+If you are building your agents, or just out of curiosity, have you tried the OpenAI Agents API yet?",open_question,"pre-labelled, checked"
+"Ask HN: What world do you want to live in?
+
+Everyone on here is quite familiar with the tech tool potential and the dystopian use trends. In some large part, these are social decisions. What laws do you want to see that limit tech, and that allow tech?",open_question,"pre-labelled, checked"
+"Ask HN: Which books did you read at least twice?
+
+Which books did you read at least twice? Please give author, title, and how often you have read it.
+For me the (probably incomplete list) is:
+Connie Willis: Doomsday Book (three times)
+Neal Stephenson: Cryptonomicon, Anathem, Quicksilver, The Confusion, The System of the World (twice or three times)
+Frank Herbert: Dune (three times)
+Tolkien: Lord of the Rings (three times)
+Stephen King: Salem's Lot, The Shining, It (three times each)
+Stephen King & Peter Straub: The Talisman (twice)
+Vernor Vinge: A Deepness in the Sky, A Fire Upon The Deep, Rainbow's End (each twice)
+Tracy Kidder: The Soul of a New Machine (twice)
+Larry McMurtry: Lonesome Dove (twice)
+Ross Thomas: Chinaman's Chance (twice)
+William Gibson: Neuromancer, The Peripheral, Agency (each twice)",worked_request,"pre-labelled, checked"
+"Ask HN: Locked out of Google despite knowing password and having email access
+
+I'm trying to recover my Google account. I know the password, but unfortunately I've lost access to the phone number where Google keeps trying to send the verification code. It used to just ask me to fill in the missing digits of the number.
+I still have access to Gmail through a third-party Android email app, where I can send and receive emails normally, but I can't sign in to my Google account anywhere else. The account is old, I never set up a recovery email and I haven't used it outside the email app for a long time. I've tried various devices, networks, and VPN combinations without success.
+Google's own recovery help says:
+""Tip: We may send a verification code to the email address on the account you're trying to recover. This way, you can get the verification code if you have access to your Gmail inbox through a third-party email client or email forwarding.""
+But I've never been offered this option.
+After multiple recovery attempts, I eventually got to a step asking for an alternative email address. I provided one and verified the code Google sent, but the final screen told me to reply to my Google support contact. I don't have one.
+I found this HN thread where a Google employee (`luka`) helped someone in almost the exact same situation:
+https://news.ycombinator.com/item?id=49744286
+Unfortunately, I can no longer reply to that thread.
+Does anyone know how to get a similar escalation or another way to recover access?",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"AI as a part of capitalism – the right way to go
+
+The way things go now are obsiously flawed.
+1. AI companies objective is to get rid of a very large part of jobs, thus converting a large part of consumers into jobless people - who are very bad at consuming.
+2. They also take other people's and companie's content for free, turning them into own profits, thus removing any incentives to create such content in the future.
+Proposed solution.
+1. All data models are created anew.
+2. All of the model content should be marked and paid for to its creators in a proportional amount to each specific training data usage.
+3. No payment = no use in the model, unless a creator provides a free license to LLM's.
+4. Any commercial data needs an explicit permission to be used in training.
+5. Profits made on data with no explicit owner (say, Shakespeare) are to be paid off to the respective country.
+6. This policy is enforced worldwide.
+When implemented, this policy will ensure that:
+a. Many people whose jobs suffer remain part of the AI economy or can become parts of it;
+b. Open-source software, photographers, artists, etc. will receive their rightful share of AI profits;
+c. People will have a very good incentive to keep on creating.",position,"pre-labelled, checked"
+"Ask HN: Has anyone decompiled Claude Code yet?
+
+I’d be interested in examining it. How about codex?",open_question,"pre-labelled, checked"
+"How to make my business survives it's first 5 years?
+
+I want to know how can I make my business survive? Please offer me some advice and guidance. And before you do I hope you all look on the past situation was it mostly luck that you survived or your skill. Because I'm afraid what may work for you may not work for me.",worked_request,"pre-labelled, checked"
+"Ask HN: Thoughts about the Gemini Web app?
+
+I'm a long time user of Gemini, but recently started exploring other options, and it just feels so behind. with ChatGPT, it can call tools and it actually feels like its taking effort.",worked_request,"pre-labelled, checked"
+"Tell HN: Google Argon on a Pro subscription is worthless
+
+Maybe that was true with Fable as well. But one prompt which took 5 minutes of clock time, used 50% of the resources of a Pro account for the 5 hour window.",position,"pre-labelled, checked"
+"Ask HN: Do you talk to bots online? How has it changed?
+
+I comment from time to time.
+Sometimes I notice I'm going back/forth with a bot.
+Anecdotally, 2+ years ago bots were clearly stupid.
+I'm recently encountering a lot less obvious bots, and a lot more lawyer-sounding commenters.
+This has me concerned, because I'm sure the bots are still out there, but their tactics have improved.
+Do you avoid bots? How do you identify them? Have you noticed any changes in them?
+Apologies if this is not a valid HN question topic.",open_question,"pre-labelled, checked"
+"Ask HN: How did Call of Duty fix ""update requires restart""?
+
+Call of duty for years has performed automatic updates when launching the game that required the user to restart the game once applied. This was a very frequent annoyance for many players. Supposedly this is fixed in the newest title launching soon, and I'm very curious what the architecture was that lead to this UX persisting for so long. I would love to hear any first hand accounts, please do not speculate, I can speculate myself.",case_report,"pre-labelled, checked"
+"Open Source Discord
+
+Hi, I just wanted to ask how many of you guys are tired of Discord and the trash features they added.
+As a gamer, I remember how discord was a good platform for talking and hanging out but it's been a long time from that feeling so I made my own discord, I used to live in ultra restricted country ( not north korea) and when they start blocking discord all of us needed to immigrate to either TeamSpeak or Steam voice chat but these two also have some flaws; for example, TeamSpeak is an old app even the new one (Teamspeak 5) has some grandpa UI that not anyone enjoy it top on that you can't share or easily share files.
+So I made my own Discord/TeamSpeak clone. I hated that public Discord clone has a lot of complicated server setup. I wanted something that I don't need to set up for an hour, and it's also easy to work with, same as Discord but nothing complicated.
+Would this app be interested for you? also it's opensource",worked_request,"pre-labelled, checked"
+"Ask HN: Any good polished email alternative to Proton Mail?
+
+I was in and out of the Proton ecosystem a couple of times, as a Visionary user. Ignoring the CEO politics and just looking at the product, I like how it is all clean and polished. But apart from Proton Mail and Proton Pass (which I do use), the rest just feels half baked. I would love an alternative that has a native email app, isn't toooo expensive, maybe has a family plan, and encryption is nice, but not needed. Anyone use anything like that? Oh, and using my own domain is nice as well. (popular alternative is Tuta, but I wouldn't consider that ""polished""). What's everyone using?",worked_request,"pre-labelled, checked"
+"Ask HN: Frontier Capability on Average Computers
+
+I really want to find a way to get frontier-level intelligence on local hardware.
+I think some really cool ways to get this have been done already like the technique of spreading an LLMs weights across a fast-enough SSD and then only serving up an expert at a time on the GPU/SoC.
+I have this idea to make a tool that lets people download several small open-weight models and they act like experts but are different very task specific models with a harness designed to keep track of their thoughts & work to let normal hardware be able to get close to frontier (or just useful level intelligence).
+Basically, I want to have a model that acts like a router or decision maker where you start your chat with initially (say a coding task for example) and it decides what model does the work next. If it needs to research it writes down in an .MD what it needs to find out, if it needs to write code, another model starts working but the other models memory & work get saved to an .MD (or folder of .MDs) and lets you get real work done but completely locally.
+This might already be done but its just an idea I had and I wanted to see what the smart people on the internet thought or how they would approach this. I might also just be able to ask AI.",worked_request,"pre-labelled, checked"
+"Twitterwebviewer.net Is Back Online
+
+https://twitterwebviewer.net/
+Previously, twitterviewer.net, which had some annoying ads, was seemingly the only website of this type left.
+But now twitterwebviewer is back. It doesn't have anywhere close to as many ads as twitterviewer does.
+I don't know exactly when twitterwebviewer came back online. The owner of the website didn't announce on here or Reddit or seemingly anywhere else that he had restored the website, and I discovered the website was back a few hours ago by accident when I was doing a google search to get to the similarly named twitterviewer.
+So now, even if you don't like all of twitterviewer's ads, there is an option to read Twitter without an account.",position,"pre-labelled, checked"
+"Notational Velocity comes back in from the cold
+
+https://github.com/scrod/nv/discussions/402#discussioncomment-18951505
+> A new update with ambitious new features is coming soon! In the meantime, this release is a stable build of NV that fixes all major issues, modernizes all deprecated code, and adds a few niceties and conveniences.
+Latest release: today (older releases are gone though)
+https://github.com/scrod/nv/releases/tag/v2.5.1
+https://notational.net",position,"pre-labelled, checked"
+"A misbehaving test MCP server for stress-testing your MCP client
+
+We needed an MCP server that misbehaves on our command to test our own MCP gateway at work, but could only find well-behaved MCPs. That’s why we built a misbehaving MCP server ourselves and now share it on here, might be helpful for others building MCP gateways.
+It’s similar to the MCP Inspector, but lets you test your client not your server.
+We called it MCP Test Kitchen and it’s a (also hosted) MCP server that lets you:
+* Connect any client that takes a URL and an Authorization header (Cursor, Claude Desktop or your own). It answers both 2025-11-25 and 2026-07-28 clients and logs which protocol revision each request declared.
+* Pick one of 6 scenarios: HTTP transport errors, JSON-RPC error responses, tool results flagged isError, elicitation, multi round-trip requests (MRTR) via a C# SDK v2 scenario, and a baseline with a configurable delay. JSON-RPC and tool errors can be set to fail on a specific call, so the first call succeeds and the second fails. Resources and prompts are always on, each with a deliberately broken variant. If you want other scenarios, let us know.
+* Watch every request in a live log with timing, method, caller, status and protocol version.
+* Clone a TypeScript reference client, pinned to the latest spec, with full source.
+You can run it yourself, it’s open source. If you’d rather test it live, we also hosted it, but you need to login (Google or GitHub, needed for the token) and can get started immediately.
+We’d appreciate feedback, that’s why we're posting. In the live tool, there is a box that emails us directly. We’re around to check feedback + other scenarios you wish it had.
+* Link to the repo here: https://github.com/cakewalk-security/cakewalk-mcp-test-kitch...
+* Live tool access here: https://mcp-test-kitchen.cakewalk.security/login
+* More information on why we built this: https://www.cakewalk.security/mcp-test-kitchen/blog/wtf-simu...",worked_request,"pre-labelled, checked"
+"Ask HN: In the age of AI does your boss still ask you for time estimates?
+
+See title, just curious.",open_question,"pre-labelled, checked"
+"Ask HN: MS Outlook login without an extra email address
+
+I have an email address which is like 16 years old. Microsoft changed their auth process, i gave them my phone number, fingerprint, and solved like 4+ captcha puzzles (lol), and now it asks for a secondary email address too confirm. I cannot get any further and cannot read my email now! There is some irony in needing another email address to access my email address, and it makes me want to leave as soon as possible. Would be helpful if I can access my email I am using for more than a decade. Do more people experienced this, and maybe found a way to login without an extra email address?",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Ask HN: Apple HomeView. What problem is Apple Home solving?
+
+I love Apple. I still think its the company that makes the most interesting products in the market. It seems to me that all new Apple Home ecosystem products are well designed and useful. It would be nice to have them. But I do not need any of them, they do not solve any specific pain, any problem I have, and I have many.
+What problem is Apple Home trying to solve for the customers?",open_question,"pre-labelled, checked"
+"Ask HN: Did you 'invest' in NFTs or memecoins?
+
+5 years ago there was a lot of talk, even on here, of getting rich from NFTs and memecoins, discussing airdrops etc. Bored Ape Yacht Club and the like.
+I was just wondering what happened to those, particularly NFTs of 'digital collectibles'. As I understand, most of the ones that sold for hundreds thousands or even millions are worth 0 now?
+Did you get heavily involved in that space? If so, what's your story? Interested to hear about experiences with 'yield farming' as well - another term I have not heard in the last few years.",open_question,"pre-labelled, checked"
+"Ask HN: Why aren't vibe-coded clones of MS Office apps a Code Red for Microsoft?
+
+The craft apps will soon be good enough for daily use.
+How will Microsoft respond?",open_question,"pre-labelled, checked"
+"I translated an Open Source App with 46K GitHub Stars into zh-HK on my own
+
+I translated an Open Source App with 46K GitHub Stars into Traditional Chinese, Hong Kong(zh-HK) on my own within 48 hours.
+I use IINA very frequently. It is only fair for me to give back to this great open source project by translating the entire app into Traditional Chinese, Hong Kong(zh-HK).
+My Translation will be included in the app's next release(1.5.1).
+IINA is a great open source macOS video player and has a lot of useful features that QuickTime Player does not have. I highly recommend you check it out!
+Thank You to the IINA Team for approving and accepting my translation!",position,"pre-labelled, checked"
+"Ask HN: How are you navigating the current tech job market?
+
+I’m curious to hear what the job market feels like on the ground right now, especially for software engineers and other technical roles. Are you seeing more interviews and offers than six months ago, or is hiring still slow?
+For people who have recently found a role, what actually helped—referrals, direct outreach, niche expertise, open-source work, or something else? And for those still looking, what has been the most frustrating or surprising part of the process?
+It would be helpful if you could include your region, experience level, and role, since the market seems to vary a lot.",worked_request,"pre-labelled, checked"
+"I am just curious about the discussion
+
+Hi guys, what's going on nowadays?",open_question,"pre-labelled, checked"
+"Ask HN: Fake abuse reports keep auto-blocking my site on Cloudflare
+
+I run a small site on Cloudflare's Pro plan. Since 26 September, someone has filed the same fake abuse report against it six times. Each time, Cloudflare automatically puts a ""Suspected Malware"" warning on my homepage and login pages, and it stays until a person reviews it.
+The reports are word for word identical. They describe an ""order"" and product pages that have never existed on my site (they return 404). The file hash in the report doesn't match the hash in its own VirusTotal link, which returns ""Item not found"". Only the date changes, and twice it's been misspelled (""October 52026"", ""Octoboer 8 2026""). Cloudflare's team has cleared four of them. The reporter pastes the same text again within a day.
+The result is that my homepage has been blocked for most of two weeks, my traffic has halved, and Google is indexing the warning page instead of my site. I've opened support cases and requested reviews each time. I've had one reply, on 5 October, and nothing on a lasting fix.
+I'm not asking for special treatment. I'd like to know:
+1. Is there a way to stop automatic mitigations from a reporter or text that has already been shown to be false?
+2. Is there a manual-review setting for a domain?
+3. Has anyone else seen the abuse form used like this, and how did it end?
+The same problem is described in my open case with Cloudflare (#02370521). Thanks for any pointers, and if anyone from Cloudflare's abuse team reads this, I'd welcome a reply.",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"How are you centralising AI for development at your company?
+
+I'm asking this because I'm seeing some frustrating patterns and if I may be bold, I think my answer is the correct one.
+Here's one I'm seeing: its the SDLC agent pattern and I think its wrong.
+Step 1: you have good AGENTS.md documentation for your code and other principles. (this is good)
+Step 2: There's a somewhat strict workflow and steps enforced like planner agent, reviewer agent, critique agent and directly create a PR from a ticket. Every human intervention here is considered an anti-pattern.
+I'd like it to be as simple as having documentation and giving developer full freedom with choice of harness, tools (MCP) and just make the pull request.
+What's the logic behind the multi step planner, reviewer, critique agents?",worked_request,"pre-labelled, checked"
+"Ask HN: Moving Away from O365 / Google Workspace
+
+We’ve been longtime Google Workspace users in one of my businesses, and O365 in the other. We’re now looking for alternatives, as we’d like to be less US dependent. But - utility is important, as is price. Anyone made the switch, and if so, who to? What are the gotchas?",worked_request,"pre-labelled, checked"
+"I gained 20k impressions on my LinkedIn profile in 100 days
+
+I gained 20,000 impressions on my LinkedIn profile in 100 days!
+Thank you to everyone who read, liked, commented and shared my posts!",position,"pre-labelled, checked"
+"My first YouTube Video gained 3000 views in 48 hours, uploaded on my new channel
+
+My first YouTube Video gained 3000 views in 48 hours, which is uploaded on my brand new YouTube channel with ZERO subscribers. And the video is ranking number 2 in term of views on the topic of ""Mickey's Happy Halloween Adventure""/《米奇與好友萬聖奇遇》.
+Thank You to everyone that clicked and watched my First YouTube video.
+I am grateful to everyone that has supported me along the way on my recent YouTube Journey!",position,"pre-labelled, checked"
+"Ask HN: Can I tell my managers to skip the corporate bs and get to the point?
+
+What is the worst that could happen?",open_question,"pre-labelled, checked; hard case: open_question vs position; the consequences question is answer-seeking, though the title also reads as venting"
+"Will big software companies (like Adobe) come together to curb AI?
+
+Recently heard about the fact that someone vibe-coded Adobe Cloud apps and having read people's reactions, one thing is clear: people say that this is ""karma"" hitting Adobe back.
+Now if these developments really threaten the monopoly of some of the largest software companies in the world, it makes me wonder whether their business losses would stimulate them to come together and do something about this out-of-control tool we all call AI.
+What are your thoughts?",open_question,"pre-labelled, checked"
+"Human transformation to machine: emotional, mental, physical
+
+First, social media took over our emotional landscape.
+Now, AI is doing the same to the mental landscape because we're offloading intellectual tasks.
+The last step, of course, is the physical.",position,"pre-labelled, checked"
+"GPT-5.6 Sol has gone full potato again
+
+When it first dropped, it would edit whatever I told it to and even kept the big picture in mind. Now, damn it, when I ask it to edit one specific spot, I have to point at it like I'm teaching a 3-year-old: 'This is a, this is b, this is c.' It's absolute garbage!",position,"pre-labelled, checked"
+"Ask HN: Have you checked REA(reverse engineer anything) GitHub repo?
+
+Hi members, I just came across a lot of X posts where they are talking about REA repository and that IP and software rights are almost worthless. Have you tried it ? What's your take on it ?",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Why not we build one tap payment system
+
+A app that manage your all physical cards and make payment by one tap using NFC",position,"pre-labelled, checked"
+"Ask HN: Demonstrating Skills When Everything Is a Prompt
+
+I used to (and sometimes still do) love really thinking about a problem - pen and paper, whiteboards, thinking on the tornado throne, you name it.
+And before AI, the projects I came up with might not have been the BEST or life-changing but they were the result of me hyper-focusing on something niche for an inordinate amount of time. Which inevitably meant I learned a lot AND anyone who saw that had a predictable reaction ""that's so cool, you need a life, but still cool"". And I've interpreted that as a recognition of skill and care. On occasion that has even landed me opportunities that I didn't even know existed.
+These days I find myself wondering if there's anything that isn't a prompt (or a few hundred) away. And if it is, what would make my skills valuable or even visible. Specifically in the context of soon becoming an ex-student, current struggling new-grad, I keep wondering what signals indicate skills to an outsider (and not a SKILLS.MD). A resume by itself is quickly becoming deceptive with most projects just being the product of barking at a model with half-baked ideas until something resembling a working prototype comes out.
+To be clear, I'm not a pessimist. I don't think its time to till the fields for our overlords. I'm trying to understand what advice people think is still applicable and what is a relic that needs a patch or two.
+TL;DR: AI projects are impressive but don't always indicate skills. How do i signal skills and not just ideas and prototypes?",worked_request,"pre-labelled, checked"
+"Tell HN: Don't mass spam employers with LLM generated emails
+
+If you're looking for a job, do -not- have Claude bulk email every company on ""Who's Hiring"".
+These things all look the same and your message is just going to get marked spam.
+For example, it's painfully obvious that our staff eng role's ""combination of distributed execution, workload optimization, and cost-aware infrastructure"" is not, in fact, ""unusually close"" to whatever line on your resume Claude decided is tangentially relevant.
+Just write a normal email by hand and send it. If you it looks like you spent 5 minutes looking up what we do and are actually excited I'll at least look at your resume; if you spent 0 minutes thinking about the job posting I'm going to spend 0 minutes on this too.",position,"pre-labelled, checked"
+"44Net Connect: A Simpler Way to Use 44Net
+
+44Net is a block of ~12M globally routable IPv4 addresses allocated for amateur radio experimentation. They are free to use for non-commercial purposes.
+44Net Connect provides licensed amateur radio operators with a static 44Net IPv4 address through a WireGuard connection. It works behind CGNAT and can work on routers, including NETGEAR, TP-Link, Ubiquiti, and modern devices, including desktops, mobile devices, Raspberry Pis, and other devices that support a WireGuard client.
+Since its launch in December 2025, 44Net Connect has grown to more than 2,200 users. We’re also expanding our infrastructure by adding three new points of presence (PoPs) in Chicago, Los Angeles, and Sydney, bringing the total to six.
+Amateur radio operators are using 44Net Connect for everything from personal tinkering to club infrastructure, education, and emergency communications.
+To get started, you’ll need a verified amateur radio call sign on the 44Net Portal: https://portal.ampr.org/. From there, you can sign up for 44Net Connect here: https://connect.44net.cloud.
+More information about 44Net Connect and how it works can be found in our introductory blog post: https://www.ardc.net/introducing-44net-connect-a-simpler-way-to-access-44net/.",position,"pre-labelled, checked"
+"Ask HN: Any secrets for reaching a human at large companies?
+
+Not having social media is good for avoiding ragebait, but it leaves me feeling helpless when I'm running out of customer support options.
+For the past 2 weeks, I have been failing to reach a human with competency and agency at HPE.
+I have a tape drive, and HPE published a recommended firmware update, but firmware downloads are gated behind an active warranty, and my warranty expired a few months ago. Trying to buy a new warranty has been a nightmare.
+For the past 3 weeks, I've been stuck in the tar pit of bouncing between departments, contact pages with no contact info, being ghosted on chats, being ghosted in email, managers saying they'll call and then not calling, getting referred to third-party companies that seemingly have no clue about tape drives, waiting on hold for 4 hours just to have my call disconnected, twice (see for yourself: if you call the sales number and press 1, you'll never get a human: https://www.hpe.com/us/en/contact-hpe.html)
+I am at the point where I'm considering a 4 hour road trip to an office just to see if showing up in person will get attention on my issue.
+Is there an approach I'm missing or unaware of?",case_report,"pre-labelled, checked"
+"Ask HN: Who else got the Google Workspace Intelligence email?
+
+I hate that they enable stuff by default. Why not just tell me about it, and let me opt in if I want to?
+Excerpt from the email:
+“The Workspace Intelligence settings for Google Tasks will be enabled (ON) by default for all users in your organization.”",case_report,"pre-labelled, checked"
+"Ask HN: What's up with all the dead links recently?
+
+For the past couple of weeks, I've found that probably 20-30% of front page HN links are unresolvable with ""this site can't be reached"" errors. Checking the comment thread, it's clear that the links are loading for other people.
+Has HN become such a traffic cannon that we bring down anything that hits the front page and I'm always late to the party? Are the sites being brought down by heavy AI bot traffic? What gives?",case_report,"pre-labelled, checked"
+"Are there any more startups with real technical challenges?
+
+I'm a technologist with 25+ years of hands-on experience across all IT roles and hundreds of technologies. I've done it all: from startups to Fortune 500s, from desktop applications to global distributed systems to AI dark factory harnesses.
+But I'm bored.
+I want to work with a startup who's taking on real challenges, challenges that require the kind of engineering expertise that gave us the microprocessor revolution and the real birth of Silicon Valley.
+Yes, everyone is talking about AI. Sure, in the right hands, with the right ring-fencing, AI is great, and there are plenty of great startup ideas around AI. At the same time, there is a lot of disinformation. The risk is that many of these startups will fail because they lack the serious engineering needed to use AI to its maximum potential.
+But I'm looking for something else.
+Do you have something that shifts the paradigm? Do you have a startup with a real challenge?
+I'd like to hear from you.
+I'd love to see what people are doing out there ... things that my AI agents haven't found yet.",worked_request,"pre-labelled, checked"
+"Ask HN: Are you hesitant to install vibe-coded apps?
+
+The thing is in the past there can be supply chain attacks but when its an actual programmer creating the software there is at least a chance for them to notice if something is up.
+But if the app is not even created by a programmer whats stopping prompt injection from including some virus in the app?
+Aren't we completely blind to security issues at that point?",open_question,"pre-labelled, checked"
+"Ask HN: Any way to remove ads in Apple apps?
+
+Apple has added notification red icons to the Apple Settings app to try to sell extended AppleCare. I find this annoying because there are their alerts in the Settings app that I immediately respond to. Any tricks to turn these off (without buying the service)?",case_report,"pre-labelled, checked"
+"Tell HN: Remember to migrate away from .name domain
+
+If you have a third.level.name domain, it'll get permanently expunged next year. Have you successfully taken steps to migrate away? Did you move to a standard .com domain, or are you taking your chances with another .tld?
+Personally, I'm stuck in Microsoft hell because Azure admin emails cannot be changed and support is both uncaring and powerless.",case_report,"pre-labelled, checked"
+"Anyone built something where AI computation get cryptography receipts
+
+We're a small proof-of-useful-work project. The validators don't
+mine — they verify AI computations (matrix multiplications + activation
+functions) and get consensus weight for it.
+The part that matters to you: submit any GEMM workload up to 256×256
+and we return the result plus a cryptographic receipt — a SHA-256
+commitment chain folded into our ledger state, verifiable by anyone
+forever. Free, no token, no signup beyond an API key we generate in
+seconds.
+Honest limits: we verify GEMM + elementwise activations (GELU/sigmoid/
+tanh/exp), not full transformer graphs yet. Attention is on the roadmap.
+The verification cost curve is published (615ms at 64³ → 157s at 1024³)
+— we priced our own clamp and labeled every tier.
+The logs: [pouw-verify] CONFIRMED lines, epoch crossings, claim-decrees
+folded into the ledger — every claim has a receipt.
+Live dashboard: http://3.237.91.235:32233
+The evidence ledger (250+ owned defects, 250+ laws): github.com/sarinsk629-blip/hsma-core",position,"pre-labelled, checked"
+"Ask HN: Do you use goto, or labeled break/continue?
+
+C# 15 (in preview with .NET 11) lets break and continue target an outer loop by label:
+outer: for (int x = 0; x < xMax; x++)
+{
+
+for (int y = 0; y < yMax; y++)
+{
+
+if (ShouldSkipRest(x, y))
+continue outer;
+
+if (ShouldExitAll(x, y))
+break outer;
+}
+
+}
+Honestly, ""goto"" never even comes to mind when I write an algorithm. I find it hard to follow, so when I need to leave nested loops I extract a method and ""return"" instead.
+Do you use ""goto"" in real code? Do you think you'll use labeled break/continue?
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-15#labeled-break-and-continue",case_report,"pre-labelled, checked"
+"Tell HN: Wise holds my company's $22k for 27 days, then goes silent
+
+Wise closed the business accounts of my Delaware LLC and my Polish sole proprietorship. I'm not fighting the closure, I just want the remaining balances back: about 22k USD (LLC, held by Wise US Inc.) and about 3.4k PLN (sole proprietorship, Wise Europe SA).
+What happened so far (2026):
+- 17 Sep: account closed. Their email: ""We've closed your account. We're unable to share the specific reason why we're closing your account.""
+- 21 Sep: ""our decision to close these accounts is final"", please send refund bank details. For the LLC they offer a PLN payout to my Polish company account.
+- 22 Sep: I send the details. I send them again on 28 Sep, and that day Wise confirms it has ""all the details you provided"".
+- 29 Sep: they have my bank details and nothing more is needed from me.
+- 6 Oct: one agent wants a photo ID and a selfie with ID to open an ""appeal"", and says there's no open complaint.
+- 7 Oct: a complaint reference gets created. A different agent writes ""There is nothing further needed from you."" and that I ""should never have been asked to submit an appeal"".
+- 8 Oct: ""The manual balance refunds are being processed directly by our specialist team."" Later that day Support says it has ""exhausted all of our department options"".
+- 11 Oct: the Complaints Team partially upholds the complaint and offers compensation for the support failures. About the money: ""We are currently still conducting these checks on your remaining funds and are unable to provide an exact timeline for how long they may take.""
+- 13 Oct: after I chase them a second time, they ask for different payout accounts: a personal account for the LLC (instead of the Polish company account they suggested themselves on 21 Sep) and EUR instead of PLN for the sole proprietorship. Their words: ""Once we have your confirmation, we will be able to start processing your refund."" I confirm both accounts in writing the same day and ask them to confirm the refunds are being processed.
+- 14 Oct: urgent reminder. Five emails since 13 Oct, zero replies.
+So: 27 days since the closure, no payout and no date. Today I filed complaints with Ombudsfin (Belgium) and the Delaware Office of the State Bank Commissioner.
+Case ID 26303051, complaint refs 50738608 and 50962286.
+Has anyone actually gotten money out of a closed Wise business account? How long did the ""checks"" take once you'd sent the account details they asked for?",case_report,"pre-labelled, checked"
+"What do you usually do while waiting for your copilot to get done?
+
+Hey all, curious to know how you handle this workflow of managing copilots. You no longer have ""flow"" in that you are not really doing the programming and it's more managerial, but what you do between prompts? Do you try to multitask on multiple programming features, or other tasks?",open_question,"pre-labelled, checked"
+"Ask HN: Tell me your product, I'll find someone with the problem it solves
+
+Hi!
+If you tell me your product, I'll find one person who is posting about a problem it solves.
+I'm building ownfeed.dev and doing this as a test for it.
+Drop your product below!",position,"pre-labelled, checked"
+"Ask HN: Why not allow AI-written posts with a ""human disclosure"" section?
+
+Some research papers already have an ""AI disclosure"" section where the human authors indicate what they contributed and what the AI contributed to the paper.
+AI-written posts on social media could similarly have a ""human disclosure"" section where the AI indicates what the human user contributed and what the AI contributed to the post.
+Note that the content of the ""human disclosure"" section would be determined and written automatically by the AI based on its conversation with the human user.
+What do you think of this idea?",worked_request,"pre-labelled, checked"
+"Ask HN: Many SWEngs out there are considering re-training
+
+Question is what it says on the tin. I've been mulling over the state of the industry and where I believe it to be going, and while I believe there will still be a role for us SWEng's in the future, I believe there will be a need for far fewer of us.
+So much so that, a la industrial revolution, there will be lots of layoffs and SWEngs without a cause. This is obviously quite a pessimistic view of where the industry is going, and maybe I'm just looking for some reassurance or discussion - my question is at what point do a large amount of SWEngs have to find something else to do and re-train?",open_question,"pre-labelled, checked"
+"Ask HN: Why do people say ""I built it"" when we should say ""Claude built it""?
+
+It's just something I've been wondering about. Everyone says, “I built it,” but really we should say, “Claude built it for me,” or maybe, “I asked Claude to build this.”",position,"pre-labelled, checked"
+"Ask HN: What is the current trajectory of a senior engineer?
+
+Been recently thinking about this more and more: When the need for a human in the design loop ceases?
+Given that LLMs are RL'd to the max with everything that can be given a wrong/right answer (code/maths), what currently is stopping Anthropic, OpenAI et al. from internally building (and maybe buying) datasets of good and bad architecture, and RL'ing that?
+Given that LLMs were a fancy autocomplete back in 2024, and now people are talking about building ""software factories"" with the agents, what in your mind is the stop to this development? Why software architecture would be hard for agents still in a year or two?
+Just thinking because I see more and more examples of software developers ignoring this and saying ""humans still have a place in guiding the agents and designing the architecture"". I think (businesswise) the need for actual software programmer skills is 90% out in a few years I think, and product lead etc people will be favored more as they have more people skills.
+it was a good run.",open_question,"pre-labelled, checked; hard case: open_question vs position; the post states a forecast but genuinely asks what could prevent it"
+"Ask HN: What Should an Incumbent Do?
+
+A client of mine is software company with a portfolio of predominantly desktop solutions for use in heavy industry.
+They moved to a subscription model a few years ago, which in hindsight was probably a mistake as it left a bad taste in their customers mouth. Now as with many other niche software vendors we seem to be hitting this inflection point where the level of effort required to clone the product is low enough to justify it despite the relatively small market.
+I’m getting asked by the leadership team what they should be doing to help them navigate this, but I’m struggling to come up with anything. Is anyone else navigating this at the moment and got any good ideas or places to start? One option is pivoting more towards consulting, but that would lead to a lot of redundancies on the development side.",worked_request,"pre-labelled, checked"
+"Ask HN: How to deal with just being a PR reviewer for LLMs nowadays
+
+I know .. architecture is important and yes it is also fun to figure it out, but apart from that all that was fun for me is done by AI nowadays and I am basically a PR reviewer for Claude now.
+And I hate it. I am looking at a terminal window half of the day and have to figure out what the LLM wants to do ... depending on much Anthropic nervs the model, this can be easy or it still invents words and I have to check every detail.
+My brain feels like it is getting cooked after a couple of hours, but the work day is only half done.
+How do you guys deal with this?",worked_request,"pre-labelled, checked"
+"Perfect-er Freehand
+
+I made some improvements to everyone’s favorite path drawing library. They’re pretty subtle, so I did an interactive write-up. Best on a large screen.
+https://shovemedia.com/2026portfolio/hot-takes/perfect-er-freehand/",position,"pre-labelled, checked"
+"Ask HN: What do you think will be hot in 2027 with on-device AI
+
+What do you think will be the hot trend in 2027 with on-device AI?",open_question,"pre-labelled, checked"
+"Ask HN: Where has creativity in software gone?
+
+I sometimes read Show HN, and there is literally no creativity at all: note-taker app after note-taker clone. Everyone is essentially looking at what’s already there, and they say, “Why can’t I create the exact same product, but worse, and add an AI suffix?”
+There is nothing creative about AI. Show HN might as well be renamed “Prompt HN.” These promoters always say, “Prompting makes me efficient; I don’t have to write code by hand anymore.”
+Great. What has your “efficiency” gotten you? Yet another note-taker with an “AI” suffix? I could take notes in 1990.
+Where did the actual engineers go? Surely they aren’t all selling ads at Facebook’s spyware empire? Where are the transistor, the C programming language, Emacs, and SQLite developers of our time?",position,"pre-labelled, checked"
+"HN: Encrypted Privacy Aware Emails, ZyMail Hit the Globe
+
+Hi guys , i am the founder of zytech a company focused on privacy and data protection through services and a lot of stuff...
+So i am happy to introduce ZyMail a service that uses Waku as a way to deliver emails , and also doesn't have any cloud database and doesn't require SMTP (for tech savy guys) , however it's in beta now , test it and tell me your opinions ! (I am not a scammer i swearrrrr)",position,"pre-labelled, checked"
+"Ask HN: Could you find funding if you didn't want to build a $1-10B business?
+
+I'm building a business.
+It seems crazily preposterous/pretentious to even write these words, but I'd be perfectly fine with a $10–50M ARR business. Like if at any point I was making more than a few million in profits a year, I would try to sell, hire someone to replace me, or just try to keep it stable.
+I have what I think is a realistic plan to reach that level of revenue/profits, but in its current state the chance it could scale beyond +$1-10B valuations seems low, I could slightly pivot to fit that framing, but for now I don't want the insane pressure of trying to build a unicorn(or at least not on this project, it's a money making project, not a passion project with a deeper meaning)
+I know there is tinyseed but it's only aimed at B2B(I'm doing B2C), for that and other reasons it would not be the right thing for me.
+In that situation, is there any reason to look for outside funding? Would any fund or angel invest in that kind of business? Would you even try to look for an investor?",worked_request,"pre-labelled, checked"
+"Domain Health
+
+We have WorkOS and are sending out activation emails for our beta product. They activation email (with the link) ends up in spam. We've tried so many different combos (plain text vs. html, vs. no hyperlink), and it seems like anything with a link is getting bounced. I'm worried about our domain health and curious if there's a better way to diagnose the problem",case_report,"pre-labelled, checked; hard case: case_report vs worked_request; the reproducible delivery failure triggers incident precedence"
+"Ask HN: Need Email Deliverability Expert
+
+We're having an urgent issue with email deliverability. Does anyone know someone or a service who can help? Any and all recs are helpful :)",open_question,"pre-labelled, checked"
+"Ask HN: How long before someone reverse-engineers Windows?
+
+It just occurred to me that similar to Photoshop suite, someone is already working on getting Windows 10/11 reverse-engineered in a clean-room fashion.
+I don't want to get into the discussion over the whole Craft suite, it's already been the talk of past week, after all, but judging by the pure popularity and the number of merge requests created within those couple days for just their Photoshop equivalent app, I am guessing these projects are not* going away anytime soon and they will, in fact, polish-out majority of issues:
+https://github.com/storytold/photocraft/pulls
+Also, while the original authors claim it was done without the debugger, I am absolutely certain thousands have their LLMs actively analyzing Adobe Suite now to get understand the knicks and crannies of it.
+So if people hating on Adobe flocked to contribute to this project so enthusiastically, I guess we can only imagine the sheer amount of interest worldwide an open-source Windows would bring, and not only from the volunteers this time around..",position,"pre-labelled, checked"
+"Surveys on AI and Writing
+
+1) For those who have let AI write (or rewrite) any part of their tech blog posts https://forms.gle/3zYuANeuCdcmFt9D9
+2) For anyone who has used any level of AI assistance in any type of professional (tech) writing https://forms.gle/rnHUguku2mLDh1YNA",position,"pre-labelled, checked"
+"Tell HN: ChatGPT on macOS grants local computer access to cloud account
+
+I recently started a conversation on ChatGPT for macOS in ""Work"" mode with the ""In the Cloud"" execution option enabled. I was expecting this to run on a cloud VM, just like ""Work"" conversations started on chatgpt.com
+When I continued it in the browser (e.g. via right clicking it on macOS and then selecting ""Open on chatgpt.com""), I was pretty shocked to learn that it actually had (and still has) access to my local file system. I could just prompt it to list files in my home directory, in /Applications etc.
+I never have opted into this behavior in the macOS app, nor does there seem to be any way to deactivate it. It's somewhat documented for enterprise accounts [1], and it can be deactivated for those in the admin panel, but this seems like the wrong place: Why should this be possible to activate remotely?
+Can anybody confirm this behavior? Maybe I'm missing something, but this seems pretty concerning.
+[1] https://learn.chatgpt.com/docs/enterprise/cloud-local-access",case_report,"pre-labelled, checked"
+"Tell HN: Free Refills with This Tumbler
+
+Background: At this point in my life, I roll out of bed and get coffee from Dunkin'. Large, black, hot. It's like $4. I'm not happy about it, but I swipe and go on with my day.
+The bagel shop I go to has a $15 tumbler that you can get free refills with. I love this because a cup of coffee anywhere is like $3 and it's all margin. My new routine is go there, get a bagel with a spread for like $4 and get coffee.
+I'm ahead cause now I have coffee and food. They're ahead because they're not even trying to compete with coffee shops. They just give away the free stuff. I've made my money back on the tumbler and they keep making $4/day off me.
+What's the software equivalent?
+Differences: coffee has non-zero cost everywhere. software has zero cost with ads. If I give away coffee, that brings people to my store. If I give away software, will people buy something to go with the free software?",worked_request,"pre-labelled, checked"
+"Ask HN: In the new AI world, what's the best way to review code?
+
+Just as title says, in the world of ai accelerated code production, when you're in charge of a repo or project, how do you usually look at code from proposed changes ?
+I'm interested to find what your workflows look like these days.",open_question,"pre-labelled, checked"
+"ChatGPT and 18 = Chat18GPT
+
+Everyone is benchmarking Gemini 4
+Meanwhile, I'm using Gemini to fix the SEO of my app and this post in HN is his idea for $0 marketing budget
+Google's AI is helping me convince Google Search that my website exists LOL
+https://chat18gpt.com",position,"pre-labelled, checked"
+"Ask HN: How do you review code nowadays?
+
+I've always had a tough time reviewing pull requests, and now that most of the code is generated by AI and then reviewed by AI, I feel like I have even less feedback than before.",open_question,"pre-labelled, checked"
+"Ask HN: Are signed URL previews feasible?
+
+Lots of protocols and software allow URL previews. But they have some annoying limitations:
+For centralized public services the server can just retrieve the preview and serve it. But for decentralized services like Mastodon either every server has to fetch the preview on its own leading to lots of traffic and potential discrepancies between the previews served by different servers or the origin home server sends the preview but now everyone has to trust that it is authentic. The home server to which a link gets posted could place anything as its preview and thereby indirectly impersonate the URL and fake its content.
+For E2EE messengers things are even more annoying because you do not want the servers to see the URL at all. So either all parties have to retrieve the preview on their own meaning they have to connect to a random, potentially malicious URL or only the sender does and everyone has to trust the sender that the preview is authentic which is a great opportunity for scams.^1
+The perfect solution would be a standard for web servers to sign URL previews with their CA issued certificate. So that you can always proof that a preview is authentic. RFC 9421 already standardizes this. But this will not happen. There is virtually no chance of widespread adoption.
+So my idea is:
+You retrieve a webpage and record the whole TLS session including certificates, MACs and your key material like nonce and client random from the handshake. Now you use this as the basis for the URL preview. When you include your secret material from the TLS handshake anyone should be able to verify that the content is authentic from the server serving the URL due to the CA certificate and authentication of TLS traffic.
+Standardize the request headers and limit the response length. Just cut off everything after the limit. Define some algorithm for computing the preview that ever recipient can verify. If you want to include linked images in the preview that increases complexity but should be doable. Repeat the whole thing with the linked image and create a bundle from all requests that authenticates the preview.
+The downside I see is complexity and the need for the receiver to parse the preview bundle which might be attack surface.
+Does anything similar already exist? Am I missing something or do you think this might be feasible to implement?
+[1] Many messengers solve this by providing a URL preview service on the server. The client sends the URL to the messenger service which retrieves (and signs I hope) a URL preview which the client then includes in the message. This has the advantage that none of the parties of the conversation has to directly connect to an untrusted UTL. This bypasses E2EE for URLs. You can usually opt of this by disabling previews. Consider this if you did not know about this.",worked_request,"pre-labelled, checked"
+"Ask HN: What tool/process do you use to understand code changes made by agents?
+
+I often feel out of control as the agents make a whole lot of changes to the code. What tools do you use to understand the code changes and to accept/reject the changes.",open_question,"pre-labelled, checked"
+"Ask HN: How bad Earth would have to be for terraforming Mars to make sense?
+
+Ok, this might be more of a Reddit question or an xkcd’s “What if”, but let’s try here first.
+When people talk about investing in tech so that, if Earth gets bad enough, we have a plan B in colonizing Mars, I think we most agree that it’s nonsense. But it seems like a good thought experiment.
+What would have to happen to Earth so that, given we have developed the technology, terraforming Mars and moving some people there is a sensible option?
+Mars having no water, no atmosphere, and no organic matter make it a high bar.
+I believe global nuclear war or the worst predictions of climate change won’t cut it. A meteor, not if it is the same size the one that already hit Earth and wasn’t enough to kill all life, much less remove atmosphere or water.
+So, what is this scenario where putting the resources (again, given we have the tech) to create a colony on Mars make sense?",worked_request,"pre-labelled, checked"
+"Ask HN: Present, near-future state of nuclear (betavoltaic, 6C, etc.) batteries?
+
+Examples: https://ndb.technology/ , https://nucleardiamondbatteriesinc.com/
+Consumer, public field.",worked_request,"pre-labelled, checked"
+"JNISleuth-MCP – Recover Stripped JNI Bindings and Ollvm Branches for Ghidra/Ida
+
+Hi HN, I’m a security engineer focused on Android anti-malware and reverse engineering.
+When reversing hardened Android apps or wild malware, one of the most tedious parts is crossing the Java-to-Native (JNI) boundary when `.so` binaries are stripped, methods are bound dynamically via `RegisterNatives` inside an OLLVM-flattened `JNI_OnLoad`, and `JNIEnv` vtable calls decompile as raw pointer offsets like `(*(code *)(param_1 + 0x548))`.
+I built JNISleuth-MCP to automate that workflow:
+1. It parses multi-DEX APKs for `native` declarations and sweeps `.rodata` / `.data.rel.ro` (or section-header-stripped `PT_LOAD` segments) for `(char* name, char* sig, void* fnPtr)` triplets.
+2. It statically resolves ARM64 OLLVM `CSEL` + `BR X8` indirect branches and `.rodata` jump tables in `JNI_OnLoad` (and can patch them in-place with direct `B.cond` / `B` instructions).
+3. For runtime-packed samples that detect Frida, it includes a C++/NDK Dobby collector that hooks `RegisterNatives` mid-function.
+4. It syncs the full 233-slot `JNIEnv*` vtable types and recovered C signatures into headless Ghidra and IDA Pro 9.0 (`idalib`/`idat64`), and exposes a model-agnostic MCP server + OpenAI/Gemini/Ollama tool schemas.
+The repo includes a synthetic multi-DEX + stripped ARM64 `.so` crackme so you can test the entire pipeline in 30 seconds without needing a live malware sample. Would love feedback from anyone doing mobile RE or binary analysis!",position,"pre-labelled, checked"
+"Ask HN: Anyone using Jev / other decision models? What for?
+
+The decision model / System One model pattern was pioneered by Jev a month ago. Since then OpenAI shipped their version and ther have been dozens of open weight implementations too.
+Are you using any of these in production yet? If so, what are you using them for?",case_report,"pre-labelled, checked; hard case: case_report vs open_question; named recent releases make the adoption question about a checkable external change"
+"Launch: Assury Cross platform agent lifecycle mangement
+
+Hey HN, I am David Girvi, co-founder of Assury.ai. We are practitioners who became vendors last year. I wanted to share that we have launched agent lifecycle management for cross-platform agents. One centralized spot for all your agents. AWS, Databricks, Snowflake, Salesforce, etc. Lifecycle does auto-discovery in every environment, plus auto-tagging. We bring everything into a tamper-proof, searchable audit trail. Easily see who or what teams own the agents etc. We also have Kill/resume controls based on tagging so you can granularly shut down certain groups during an incident. We built this also to handle swarms, as one of our design partners has 30k agent swarms that spin up and down for research. Our thesis is that we want everyone to use the agents that will help them with their work. We want to be the observability, audit, governance, and incident response for all those different platforms. We started with one of the first MCP gateways that did execution level governance, then the endpoint with hooks, then our agent deception technology, and now lifecycle management. We are a small team of practitioners building product for our customers, not a marketing team. Cheers.",position,"pre-labelled, checked"
+"Ask HN: What tools do you use to create 3D print models using AI
+
+Hey HN! I have been dabbling into some hobby projects that require designing custom 3D printed models. I have been relying on AI models, mostly GPT Sol and Astra through Codex, and giving them certain tools such as Blender MCP and OpenSCAD CLI to design.
+My end goal is 3D printable designs ( .stl etc). The results have been good but not great. Iterating and improving them is such a pain in the ass. I want to know which specific tools or workflows you would recommend I should try. Thanks in advance!",worked_request,"pre-labelled, checked"
+"Ask HN: How can this be legal?
+
+How can it be legal, at least in the EU, that if you are 1 hour + 1 minute late to pick up a car rental that you already paid for in full, plus full insurance, that they cancel your booking, rent it out to another customer and keep your money with no refund?
+This is the case with SIXT car rental at least, probably others. This weekend in Portugal this happened to me and one other person who was in the location at the same time as me. It is in their (extensive) terms document.
+Surely this can't be legal as the payment for the product / service has already been made. What difference does it make to them where the car is? They are making double the money for the same service. Illicitly it seems.
+Legacy, bureaucratic, dinosaur companies like this are a old-world-mentality plague.",case_report,"pre-labelled, checked; hard case: case_report vs position; the legality question is genuine despite the heated closing sentence"
+"Building hanzkraftedIO in the age of AI-slop articles
+
+So what was my purpose behind starting Hanzkrafted.IO? A short answer - an internet filled with AI articles everywhere. More specifically, technical articles.
+This is first, my own personal efforts to become a better engineer, and second, to provide other engineers with high quality technical articles curated meticulously by a another human engineer.
+https://hanzkrafted.io/",position,"pre-labelled, checked"
+"Ask HN: CAD for wood working with LLM support?
+
+I’m a hobbyist woodworker. I manually design simple things in Shapr3d with a lot of patience when I build things. I wonder in the time of LLMs if there is an effective way to accelerate the 3D model design using AI.. Anybody tried using AI to model wood projects? Any tools to recommend?",worked_request,"pre-labelled, checked"
+"Ask HN: Now that AI makes the execution easy, do ideas matter more?
+
+Do you think this is true?",open_question,"pre-labelled, checked"
+"Why does checking for software updates often take so long?
+
+It seems like a lot of the desktop software I use (including the OS) takes on the order of 10 seconds to check if an update is available.
+What is happening that takes longer than network round-trip plus (a generous) 10ms to check for a higher version number?",open_question,"pre-labelled, checked"
+"Local-First Decentralized Storage
+
+Hi guys!
+My friend today recommended me this tool umm it does some incredible job , it's a local first , zero knowledge, decentralized service ! , it stores data also compressing your files and encrypting them !
+Imagine i could save up to 20% of storage because of it and also it lets me share the files with my friends without net and it works offline !!!",position,"pre-labelled, checked"
+"ChatGPT Plugin in Review for Weeks
+
+My ChatGPT plugin has been stuck in review for 2+ weeks. I'm excited about what it can do, but there's no reason it should take this long, given that we're now in the age of agents.
+Anyone else seeing long delays?",case_report,"pre-labelled, checked"
+"Ask HN: Are there any chat app around personal photos?
+
+For example, I want to quickly create an album of my kids growing up and how they changed. I want to find all the photos where one of my relatives showed up or where we celebrated a festival and so on. I know Google does a little bit, but it is not perfect. It's not good. I'm wondering if there's anything that already exists.",worked_request,"pre-labelled, checked"
+"Ask HN: What is your usecase for ONNX model format?
+
+Seems like GGUF has become the most popular format (at least for LLMs). Curious why and what for people are using ONNX in 2026. Either you personally or past/present employer",open_question,"pre-labelled, checked"
+"HN Feature Request: Option to hide repetitive AI complaints
+
+A steady number of HN discussions seem to get sidetracked by generic complaints about AI, without adding any value. But they get upvoted.
+It would be nice to have an optional setting to collapse these comments.
+Going a step further, perhaps warning commenters when they post could lead to more thoughtful discussions.",position,"pre-labelled, checked"
+"Ask HN: How to slow down AI development speed(also, estimate my ideas)
+
+Hello everybody. So, the first: we should abandon likes and go to top-lists instead of them, and say ""this is on first place of importance"", ""this is third place"", and finally we will find the medium: ""2nd place in average"". To avoid sybil-attacks and get needed money, we may register proofs that we are really person with this e-mail, date and place of birth, first and last name to charity companies - they may reveal data about you like ""this is a unique person"", ""this is 18+ person"" etc., whether we want to deanonymize registered person or not.(Proof of Personhood/PoP + Sovereign Identity?)
+Then, we should alarm/whistleblow the AI disaster as the most important things in the world*
+Then, we should watch somehow who uses/trains AI. Some suggestions: OS, providers, antivirus systems. If you're closing this data or openly train AI too fast -
+Then we will use cryptocurrency of smart-contracts to ""sanction"" personally - people in your country will never accept money that has ever been into your hands and will buy only goods with mark on it ""Income from this product will never be into hands of those who are in not in our white list(detailed citizens) etc., and they will never be into hands of those people are in black list (Tainted Coins Audit?)*
+Then, we should create IdeaPledge. Manifest is too long and AI-generated(so that I can't post it here), but TL;DR we should stop be such commies on the Internet information, and still not be greedy: we should try to agree with any information producer how much does his information cost. We should add payments like ""If you're rich - pay 10x as much of the base cost, if you're poor - for free, but you should prove you studied something"". and similar production - we should make internet-economics work not for free and not for corporations, but for world improvement, and ideas how to slow down AI development this way will be much better.
+P.S. AI mentioned you may be too worried about privacy(personally I don't mind it roughly speaking about myself), so may you suggest any alternatives/trade-offs?
+---
+* We may also add weights to voices
+* Also, this is a good place for suggesting your dreams about the perfect world.
+** Also, we may just boycott a lot of US military this way and economize a lot of money for much more useful purposes",worked_request,"pre-labelled, checked"
+"Ask HN: Curious, who can afford to buy in SF?
+
+I've worked in tech now for 15 years, generally ""high paying"". I lived in SF for the first 4 of this years, between 2014-2018 and remember hearing all about how it was us tech workers who were responsible for high home prices.
+Fast forward 15 years and despite moving out of the city, and saving as much as I could, I still don't see how I could afford to live in SF.
+Honestly it boggles the mind a little bit. I'm motivated, worked supposedly in the right industry, and would love to live there, but it makes zero financial sense whatsoever. WHO can afford these 1.5 - 3.0 ---> 15+ million dollar homes?
+At times I wonder, have I just absolutely failed at working in tech? Should I have been pulling $500k a year or something for the last 10 years? I never did work for FANG so maybe thats it? I mean is that it? Work for FANG and you can afford SF? Or what am I missing? 15 years of working and saving and I still couldn't live there.",worked_request,"pre-labelled, checked; replaced a near-duplicate during review"
+"Ask HN: Recommend Phones for Elderly?
+
+Many of us have elderly parents or grandparents whom we help with technology. In my case, my 80yo father has started struggling with cellphone use, e.g. finding apps and dealing with screen blanking. Can anyone recommend a model of cellphone, from a startup or otherwise, that you've found effectively meets the needs of elderly or disabled users?",worked_request,"pre-labelled, checked"
+"Ask HN: How does your organization make build vs. buy decisions now?
+
+With AI, a lot of things are way easier to build than they once were. So I wonder how big organisations now decide whether to build vs. buy. Building is easy, but you still need to maintain and support everything you build in-house. I'm especially curious how this varies by organisation size.",open_question,"pre-labelled, checked"
+"Ask HN: What's the oldest software tool you still rely on every day?
+
+What is it, why hasn't anything replaced it, and what would it take to retire it?",open_question,"pre-labelled, checked"
+"In-car display of surrounding environment in AVs
+
+Hi. I'm doing a university research that tries to understand how in-cabin display of the real-time 3D reconstructed environment around a driverless car affects passenger trust.
+If you have taken a trip in a driverless car before and would like to help me with my research, please fill this short anonymous questionnaire: https://forms.gle/UZyq85eL7b5iU4Wh8
+Thank you for your support. I promise to share the outcome of my findings here when I'm done.",position,"pre-labelled, checked"
+"Free and Open-Source Facebook Scraper – Lightweight, No Headless Browser
+
+Recently I created a Facebook scraper that can scrape profiles, posts, comments, reactions, groups, Marketplace and search engine.
+It's free and open source. It's lightweight, doesn't use a headless browser and doesn't rely on fragile HTML parsing.
+If anyone is interested, feel free to try it out and contribute if possible. And don't forget to star the repo if you find it useful! :)
+https://github.com/XD-MHLOO/facebook-gql-scraper",position,"pre-labelled, checked"
+"Help Me Think About Software Eating Hardware
+
+The ESP32's remembering of chess moves needs to match that of a more complex combo of PCB, magnets and RFID.
+Can programs as weights combined with decision 1 models like Laya help bolster the ESP32's ability to recognize (reason) piece state on a board?
+How can this be readily achieved? Any one else also thinking along these lines?",worked_request,"pre-labelled, checked"
+"Ask HN: Is voice becoming your main input? What happens to open-plan offices?
+
+Is voice or dictation taking over as the major way of interacting with your computer or agents?
+If so, then what's going to happen to the future of open floor plan offices?
+Are NC headphones and Stenomasks the future?
+They will now become part of the corporate issued and mandated equipment at open floor plan offices?",open_question,"pre-labelled, checked"
+"Tell HN: AIs Do Not Laugh
+
+So far as I can tell, AIs do not laugh. Ever.
+I mean, you can hook one up to a speaker, and get it to emit the sound. Or you can ask it to write a joke, and it will. But they don't laugh. They don't find things funny.
+As people anthropomorphize AIs, this is going to be a difference. AIs are internally different than humans. They have no intrinsic sense of humor.
+I'm not sure how far to take this, but I thought it was an interesting observation.",position,"pre-labelled, checked"
+"Ask HN: What Happened in DNSSEC Yesterday?
+
+I have had DNSSEC verification enabled for a couple of months in systemd-resolved. Not that I am particular paranoid or do any nuclear-sensitive stuff on my machine. Don't even own any Bitcoin. But mostly out of technical curiosity.
+Until yesterday I had only noticed 2 broken sites (or sites affected by buggy systemd-resolved implementation as some voices claim). Some Jira Plugin and Swedish Railways SJ.
+Yesterday basically the Internet stopped working for me. After a while I remembered good old operator wisdom ""It's always DNS"". And it was DNS. Systemd-resolved logged ""missing-key"" for basically every query I tried.
+So I switched from DoT 1.1.1.1 @Cloudflare to DoT 8.8.8.8 @Google and life continued. Until today that suddenly out of nowhere showed the same symptom.
+Turning off DNSSEC verification avoids the problem. An internet search brought up https://github.com/NordSecurity/nordvpn-linux/issues/1853 which also links to another one. The timing seems to match with my observation, but I don't use NordVPN. Any clues?",case_report,"pre-labelled, checked"
+"Do you see departments at your company building small apps?
+
+How often are you seeing non-technical people at your company building their own software to solve everyday problems? I saw this at my last company. They even created a department within tech just to handle it. Is this happening everywhere? What do you think?
+Refs:
+https://www.ycombinator.com/rfs#a-cloud-for-small-software
+https://www.shpyrd.io/small-software-manifesto",open_question,"pre-labelled, checked"
+"I posted 100 tiktoks as introverted engineer
+
+I've been coding for over 10 years.
+I've been employed in a corporation, startup...
+Then I opened my own startup, raised money, struggled, closed it.
+This year I wanted to ride a wave of solo builders (inspired by Pieter Levels, Marc Lou and others).
+It sounded awesome, and I hate to admit, but it sounded kinda easy.
+Build an app in a week, find viral formats on TikTok, recreate them, go viral, get rich.
+Easy right?
+Well. I have locked my introvert personality in a box and put it under my bed, while I started filming my self to promote my apps.
+First few videos got 700 views... well you gotta start somewhere right?
+But then I just didn't manage to escape that prison.
+Somewhere in between I actually managed to get first customers; around $150... nothing mind blowing, I know.
+After 60 posted videos I started doubting everything... and the obvious happened.
+I have started building a new app. I just wanted to feel productive again...
+It worked!.. for a day or two.
+Then again the distribution time has came..
+Same rabbit hole.
+Posting on Reddit was another idea, but I know it's likely in exchange for my soul (bad experience launching software there :)).
+Not sure if I even want to ask anything or just share my story at this point...
+But if there is anyone who reads this and thinks: ""Damn I am complete opposite, I love filming videos and marketing, but don't have ideas or can't build."" Make sure to contact me :D",position,"pre-labelled, checked"
+"Fake reviews on the Google Play store
+
+I found lots of reviews where the reviewer gave 5 stars and wrote ""I can not recommend this app"" or ""complete disappointment"" and then mentions the name of a shady competitor website. Such reviews are found on multiple apps of the same category. One of the reviews has been online for 3 months now and has received 21 ""likes"" causing it show up near the top of the reviews list.
+This is a reviews for an app that has 500 Million downloads. Google is not moderating reviews properly even on popular apps and allowing abusers to plug in the names of their shady sites.",position,"pre-labelled, checked"
+"Ask HN: What desk chair would you recommend for a home office?
+
+I’m looking for a comfortable desk chair for everyday work at home. What chair do you use, and would you buy it again?",open_question,"pre-labelled, checked"
+"Ask HN: How do you build a reputation without social media?
+
+I've recently started writing a blog to boost my online presence as I think it would be beneficial for my career. The thing is I don't enjoy being active on social media which feels like a major constraint. I'm curious about your thoughts on this matter and what you'd do in such situation.",worked_request,"pre-labelled, checked"
+"Ask HN: Now that we're in the singularity, are you doing anything differently?
+
+I had the word probably in the title, but it wouldn't fit.
+Now that AI is increasing in capability at an absurd rate, are you living your life differently at all? Just going through the motions? Hiding out in a bunker? I guess my life has mostly been unchanged other than too many late nights experimenting with AI. I think some part of me is still in disbelief, that we're here.",open_question,"pre-labelled, checked"
+"What are your thoughts on this technology that the American government has?
+
+I know someone who works for the government. They tell me the government has technologies that can
+1. Read your thoughts
+2. Pull your memories
+3. Talk to you and only you without you owning a communication device.
+What are your thoughts?",open_question,"pre-labelled, checked"

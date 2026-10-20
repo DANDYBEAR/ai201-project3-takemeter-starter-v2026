@@ -53,61 +53,83 @@ whether you hit them:
 
 ## 1.
 
-<!-- Your criterion. It must name a number. -->
-
-
+**In `results_three_seeds_before.json` produced by section 6 of
+`takemeter.ipynb`, the `accuracy` value for each of seeds 42, 7, and 2024 is
+at least 0.65. Section 6's unchanged `split_dataset` function defines each
+held-out set using its stratified 70/15/15 split.**
 
 **Why this target:**
 
-
+A four-label random guesser would average about 0.25 accuracy, so 0.65 would be
+a substantial improvement and would make the classifier right on roughly two
+out of every three posts. I did not set it higher because the taxonomy has two
+close boundaries (`case_report`/`worked_request` and
+`open_question`/`position`) and each seed tests only about 30 of the 200 posts.
 
 ---
 
 ## 2.
 
-<!-- Your criterion. -->
-
-
+**In `results_three_seeds_before.json` produced by section 6 of
+`takemeter.ipynb`, every label's `per_label` F1 value is at least 0.50 for each
+of seeds 42, 7, and 2024. The notebook's unchanged `evaluate` function is the
+scoring procedure, including its `zero_division=0` convention.**
 
 **Why this target:**
 
-
+Overall accuracy could hide a model that ignores a less common label. An F1
+floor of 0.50 requires useful precision and recall for every label, while
+allowing for the large score jumps caused by having only about five to eight
+held-out examples of a label in a 30-post test split.
 
 ---
 
 ## 3.
 
-<!-- Your criterion. -->
-
-
+**In the final 200-post labelled dataset, every label contains at least 30
+posts (15%) and no label contains more than 90 posts (45%).**
 
 **Why this target:**
 
-
+Thirty examples gives even the smallest label a chance to contribute about
+four or five examples to each stratified test split. The 45% ceiling prevents
+the model from appearing successful by repeatedly predicting one dominant
+kind of Ask HN post.
 
 ---
 
 ## 4.
 
-<!-- Your criterion. -->
-
-
+**A second annotator, working from the written taxonomy without seeing my
+labels, agrees with at least 24 of my labels on 30 posts selected from the
+final row-ordered `labels.csv` by
+`pandas.DataFrame.sample(n=30, random_state=42)` (at least 80% exact
+agreement). I will save the sampled text, my label, and the second label in
+`annotation_audit.csv`; exact string matches count as agreements.**
 
 **Why this target:**
 
-
+The intent gate and precedence rule are meant to make the four labels
+repeatable, not merely understandable to me. Requiring 24 of 30 matches allows
+at most six disagreements for the genuinely close boundaries while still
+showing that another person can apply the rules consistently.
 
 ---
 
 ## 5.
 
-<!-- Your criterion. -->
-
-
+**For each of seeds 42, 7, and 2024 in `results_three_seeds_before.json`,
+`confidence.accuracy_most_confident_third` is at least 0.20 higher than
+`confidence.accuracy_least_confident_third`. These fields are calculated by
+the notebook's unchanged `confidence_report` function from maximum softmax
+probability, using its existing sorting, third-size, and tie behavior.**
 
 **Why this target:**
 
-
+Confidence is only useful if it helps identify predictions that need review.
+With a roughly 30-post test set, each third contains about ten posts, so a
+20-point gap means the high-confidence group contains at least two more
+correct predictions than the low-confidence group.
 
 ---
 

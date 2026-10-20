@@ -93,17 +93,31 @@
 
 **Where the posts came from:**
 
+The posts are public Ask HN submissions collected through the public Hacker
+News Algolia API. I kept each complete title and text body, skipped submissions
+without body text, removed one near-duplicate repost, and did not split the
+file. After the first balance check, I replaced seven routine `position` posts
+with older `case_report` posts from the same feed so every label met the 15%
+minimum I set in `criteria.md`.
+
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
+
+I labelled rows 1-20 cold and marked them `cold` in the `note` column. An AI
+pre-labelled rows 21-200 in three batches using my definitions and precedence
+rule; I then read every complete post, accepted or corrected each suggestion,
+and marked those rows `pre-labelled, checked`. Hard cases and their boundary
+rules are recorded in the corresponding notes.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `case_report` | 30 | 15.0% |
+| `worked_request` | 65 | 32.5% |
+| `open_question` | 44 | 22.0% |
+| `position` | 61 | 30.5% |
+| **Total** | **200** | 100% |
 
 **Three hard cases**
 
@@ -111,25 +125,32 @@ Say so plainly — the disclosure is required, not penalised. -->
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
+> *The post:* “Ask HN: Dark mode for HN please? (2026)”
 >
-> *Could have been:*
+> *Could have been:* `position` or `worked_request`
 >
-> *I chose, because:*
+> *I chose, because:* `position`. It argues and petitions HN to add a native
+> feature; it does not ask readers for information or advice.
 
 **2.**
-> *The post:*
+> *The post:* “Tell HN: Getting spam after commenting on monthly Who's Hiring
+> posts. Who else?”
 >
-> *Could have been:*
+> *Could have been:* `case_report` or `position`
 >
-> *I chose, because:*
+> *I chose, because:* `case_report`. The quoted spam message supports a
+> discrete incident, and the author genuinely asks whether others experienced
+> it and what can be done.
 
 **3.**
-> *The post:*
+> *The post:* “Anthropic Console overcharged my card 100x due to
+> internationalization input bug”
 >
-> *Could have been:*
+> *Could have been:* `case_report` or `position`
 >
-> *I chose, because:*
+> *I chose, because:* `position`. It documents the incident in detail but ends
+> by petitioning Anthropic to act, not by requesting information or advice from
+> readers.
 
 ---
 
@@ -162,17 +183,28 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Eight synthetic Ask HN posts placed deliberately on the
+  boundaries of my draft taxonomy.
+- *What came back:* Cases that mixed checkable evidence with rhetorical
+  questions or product advocacy.
+- *What I changed:* I added an intent gate: without a genuine request for
+  information or advice, the label is `position` even when evidence is present.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Suggested labels for rows 21-200 using the four
+  definitions and the intent-first precedence rule.
+- *What came back:* One suggested label and a brief reason per post, with
+  uncertain cases flagged.
+- *What I changed:* I read every full post and corrected suggestions where the
+  primary communicative intent or incident precedence had been applied too
+  loosely. The CSV records the reviewed result, not unchecked AI output.
 
 **Pre-labelling disclosure:**
+
+Rows 1-20 were labelled cold. Rows 21-200 were AI-pre-labelled and then
+individually read and checked by me; this is also recorded in each row's
+`note` value.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
