@@ -1,10 +1,174 @@
 text,label,note
-Just signed up for my first marathon and I'm equal parts excited and terrified.,reaction,provided practice data
-A sub-3 marathon is more impressive than most people's entire athletic career and runners undersell it constantly.,hot_take,provided practice data
-Got my entry! Been refreshing that page for forty minutes.,reaction,provided practice data
-Just watched someone in a full costume run past me at mile 20 and I've never felt worse about myself.,reaction,provided practice data
-Anyone running more than 60 miles a week without a coach is just accumulating injuries on a schedule.,hot_take,provided practice data
-"Split the field by finish time and looked at DNF rates. Under 3:30, about 1%. Over 5 hours, about 9%. The cutoff is at 6 hours and the aid stations start closing at 5:15, which might explain more of that than fitness does.",analysis,provided practice data
-Super shoes have ruined amateur racing. Times mean nothing now and everyone knows it.,hot_take,provided practice data
-Six of the last eight course records here were set in years when race-day temperature was under 10C. The two exceptions were both years with a strong tailwind on the back half. Weather explains more of the record book than the field does.,analysis,provided practice data
-The women's field here has grown 60% in five years while the men's is flat. That's the actual story of this race and nobody writes about it.,analysis,provided practice data
+"Ask HN: Many SWEngs out there are considering re-training
+
+Question is what it says on the tin. I've been mulling over the state of the industry and where I believe it to be going, and while I believe there will still be a role for us SWEng's in the future, I believe there will be a need for far fewer of us.
+So much so that, a la industrial revolution, there will be lots of layoffs and SWEngs without a cause. This is obviously quite a pessimistic view of where the industry is going, and maybe I'm just looking for some reassurance or discussion - my question is at what point do a large amount of SWEngs have to find something else to do and re-train?",open_question,"pre-labelled, checked"
+"How to make my business survives it's first 5 years?
+
+I want to know how can I make my business survive? Please offer me some advice and guidance. And before you do I hope you all look on the past situation was it mostly luck that you survived or your skill. Because I'm afraid what may work for you may not work for me.",worked_request,"pre-labelled, checked"
+"Ask HN: Bring-your-own-AI hardware
+
+Wondering if you guys find any interesting bring-your-own AI hardware.
+Due to recent development in AI, people can easily develop their own ""brain"" for any hardware. I am curious to find out those hardware that are sold without software, or can be easily modify.",worked_request,cold
+"Ask HN: What world do you want to live in?
+
+Everyone on here is quite familiar with the tech tool potential and the dystopian use trends. In some large part, these are social decisions. What laws do you want to see that limit tech, and that allow tech?",open_question,"pre-labelled, checked"
+"Why do computers/phones have a restart option along with the power off option?
+
+Couldn't users just turn off their computers(via the shutdown option) and use the physical button to turn it on again ? Why did they added an extra button ? It's not saving too much time or anything.",open_question,"pre-labelled, checked"
+"Ask HN: What desk chair would you recommend for a home office?
+
+I’m looking for a comfortable desk chair for everyday work at home. What chair do you use, and would you buy it again?",open_question,"pre-labelled, checked"
+"Survey: How do you create the video demo for your project or product?
+
+Quick survey and share my pains in the meantime:
+- The audience has limited attention bandwidth, to present the product well in a short period of time is challenging.
+- To record a product demo requires to move the mouse quickly and often have to switch among various web pages or apps frequently, which is a real challenge with the time limit
+- Follow the script to operate the product while recording can include many backs and forth
+- It's difficult to explain well while operating the product with time limit
+- Putting together the recordings and BGM is another barrier",worked_request,"pre-labelled, checked"
+"AI as a part of capitalism – the right way to go
+
+The way things go now are obsiously flawed.
+1. AI companies objective is to get rid of a very large part of jobs, thus converting a large part of consumers into jobless people - who are very bad at consuming.
+2. They also take other people's and companie's content for free, turning them into own profits, thus removing any incentives to create such content in the future.
+Proposed solution.
+1. All data models are created anew.
+2. All of the model content should be marked and paid for to its creators in a proportional amount to each specific training data usage.
+3. No payment = no use in the model, unless a creator provides a free license to LLM's.
+4. Any commercial data needs an explicit permission to be used in training.
+5. Profits made on data with no explicit owner (say, Shakespeare) are to be paid off to the respective country.
+6. This policy is enforced worldwide.
+When implemented, this policy will ensure that:
+a. Many people whose jobs suffer remain part of the AI economy or can become parts of it;
+b. Open-source software, photographers, artists, etc. will receive their rightful share of AI profits;
+c. People will have a very good incentive to keep on creating.",position,"pre-labelled, checked"
+"Ask HN: What is your usecase for ONNX model format?
+
+Seems like GGUF has become the most popular format (at least for LLMs). Curious why and what for people are using ONNX in 2026. Either you personally or past/present employer",open_question,"pre-labelled, checked"
+"I gained 20k impressions on my LinkedIn profile in 100 days
+
+I gained 20,000 impressions on my LinkedIn profile in 100 days!
+Thank you to everyone who read, liked, commented and shared my posts!",position,"pre-labelled, checked"
+"Help Me Think About Software Eating Hardware
+
+The ESP32's remembering of chess moves needs to match that of a more complex combo of PCB, magnets and RFID.
+Can programs as weights combined with decision 1 models like Laya help bolster the ESP32's ability to recognize (reason) piece state on a board?
+How can this be readily achieved? Any one else also thinking along these lines?",worked_request,"pre-labelled, checked"
+"Ask HN: MS Outlook login without an extra email address
+
+I have an email address which is like 16 years old. Microsoft changed their auth process, i gave them my phone number, fingerprint, and solved like 4+ captcha puzzles (lol), and now it asks for a secondary email address too confirm. I cannot get any further and cannot read my email now! There is some irony in needing another email address to access my email address, and it makes me want to leave as soon as possible. Would be helpful if I can access my email I am using for more than a decade. Do more people experienced this, and maybe found a way to login without an extra email address?",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Ask HN: System One models for autonomous agents
+
+I've seen a few impressive demos of Typesafe's new paradigm with System One models, and it seemed really clear to me that this was probably the direction the industry, especially for autonomous agents, was headed.
+It's been a while though, and the major providers still seem to rely on more powerful LLMs (System Two) for all tasks, regardless of complexity.
+Similar to how chain of thought arose, I thought the System One/System Two Thinking Fast and Slow model was one of those human structures that fit really well onto training neural nets, and I thought that this new paradigm could really change things.
+That doesn't seem to be the case so far though, and I'm kind of puzzled to why this hasn't broken the industry open by now. Of course my predictions are not infallible, and one shouldn't expect much accuracy or for progress to abide by rigid schedules, but nonetheless: how come Kahneman Computer Use models aren't everywhere by now?",worked_request,"pre-labelled, checked"
+"What is still hard to become good at as AI makes coding easier?
+
+Since LLMs came, how I build software changed for so many reasons. Since then, I’ve spent most of my time deciding what I want to build, how I want to build it, how I want to give the context, checking the result, seeing if there is an error, and paving the way for the LLM to do the right thing. And the difficult part, which is writing code and getting everything right, is handled by the LLM surprisingly well, from my work and the people around me and people who I look up to on the internet.
+Until now, my edge was that you can get really far by understanding how computers work, like networking and CLI, kernels, reading errors, and following documents. You can get very far. But that strong edge is now fading because of how good LLMs are becoming lately. It won’t take that long. That edge would be gone when LLMs get much better at switching to the specific context of things. They still can do it, but you need to pave the way for them.
+Now, people are saying you should have better judgment of what to develop for the future. But the issue is that I haven’t identified a hard thing worth committing to since LLMs came along.
+I’m in my early career and trying to decide where I should invest my serious efforts. What capabilities remain difficult to acquire, are very niche, and aren’t something lots of people want to work on? There has to be something where human expertise remains valuable, including work where a human is still much cheaper than using LLMs.
+I’m not looking for an answer like, “XYZ types of sites are very hard to build, and you should build one yourself and make money.” What I’m missing is a concrete problem, who needs it solved, what makes it difficult, and a path into working on it.
+I’m not looking for an easy answer. I’m trying to see what you and other people have run into or understand about what’s going on right now. I need to find a hard thing to do, and I haven’t found one I feel confident committing to. Can you help me find one?",worked_request,cold
+"Ask HN: Moving Away from O365 / Google Workspace
+
+We’ve been longtime Google Workspace users in one of my businesses, and O365 in the other. We’re now looking for alternatives, as we’d like to be less US dependent. But - utility is important, as is price. Anyone made the switch, and if so, who to? What are the gotchas?",worked_request,"pre-labelled, checked"
+"Subscribe and Save items have a price increase
+
+""Hi <you>,
+The following Subscribe & Save subscriptions in your October 31 delivery have experienced a price increase. Review your subscriptions and manage your deliveries below.""
+""have experienced a price increase"" sounds like dissociation.
+This is outrageous, companies are price gouging, COVID has been over for several years, where is the federal government we elected?",position,cold
+"Notational Velocity comes back in from the cold
+
+https://github.com/scrod/nv/discussions/402#discussioncomment-18951505
+> A new update with ambitious new features is coming soon! In the meantime, this release is a stable build of NV that fixes all major issues, modernizes all deprecated code, and adds a few niceties and conveniences.
+Latest release: today (older releases are gone though)
+https://github.com/scrod/nv/releases/tag/v2.5.1
+https://notational.net",position,"pre-labelled, checked"
+"Google Meet Enshittification
+
+Google Meet Android app meeting join now claims to need Notification Permissions for incoming and outgoing calls.
+This claim is false. There's no such requirement. And if there were, it would be needless and wholly unreasonable.",position,"pre-labelled, checked"
+"HN: Encrypted Privacy Aware Emails, ZyMail Hit the Globe
+
+Hi guys , i am the founder of zytech a company focused on privacy and data protection through services and a lot of stuff...
+So i am happy to introduce ZyMail a service that uses Waku as a way to deliver emails , and also doesn't have any cloud database and doesn't require SMTP (for tech savy guys) , however it's in beta now , test it and tell me your opinions ! (I am not a scammer i swearrrrr)",position,"pre-labelled, checked"
+"Ask HN: Has anyone started using OpenAI Agents API
+
+If you are building your agents, or just out of curiosity, have you tried the OpenAI Agents API yet?",open_question,"pre-labelled, checked"
+"Ask HN: Will Microsoft sue vibe coded wordcraft for copying its Word GUI?
+
+The vibe coded gridcraft also copied the Excel GUI.
+Do you think there will be lawsuits for these open source vibe coded apps?
+P.S. To try these on macOS:
+brew install wordcraft
+brew install gridcraft",case_report,"pre-labelled, checked; collected after balance check to strengthen case_report"
+"Ask HN: Tell me your product, I'll find someone with the problem it solves
+
+Hi!
+If you tell me your product, I'll find one person who is posting about a problem it solves.
+I'm building ownfeed.dev and doing this as a test for it.
+Drop your product below!",position,"pre-labelled, checked"
+"Ask HN: Beyond traces, how do you know your agent did the job?
+
+I keep going back and forth on this.
+Traces and logs tell me what the agent did: every tool call, retry, token, and step.
+That's useful when something breaks. What I'm less sure about is whether that tells me the agent actually did the right thing.
+A run can look clean and still miss what I wanted. Or it can ""finish"" without the outcome really being done. So finished and succeeded aren't the same thing.
+I haven't made up my mind how to check for that, but I'm experimenting a lot with extracting intents from my agent and correlating among them.
+Curious how you do it:
+- Do you capture intent and outcome explicitly (e.g. giving a tool to the agent to ""declare"" it), or infer them after the fact from the traces?
+- What kind of ""questions"" do you ""ask"" your traces?",worked_request,cold
+"AppStore – Waiting for Review
+
+Hello,
+I've been in the iOS App Review for 4 days, and I'm wondering what the experience is for others with it; 2 years ago, when I submitted a different one, it went through in less than 24 hours.
+Is this normal? Or might my app stay more in review for some other reason?",case_report,"pre-labelled, checked"
+"Ask HN: Why HN dosen't have bot problem?
+
+I always admired simplicity of this website. With that simplicity, I am wondering how they protect against bots spamming?",open_question,cold
+"Google Fonts as a Protest Piece?
+
+I just noticed that all of the Google Fonts example text now reflects the Universal Declaration of Human Rights.
+This cannot be coincidence, given the context of the last 2 years.
+For example, see https://fonts.google.com/specimen/Roboto
+""No one shall be subjected to arbitrary arrest, detention or exile.
+Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
+No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.""",position,"pre-labelled, checked"
+"Ask HN: Are signed URL previews feasible?
+
+Lots of protocols and software allow URL previews. But they have some annoying limitations:
+For centralized public services the server can just retrieve the preview and serve it. But for decentralized services like Mastodon either every server has to fetch the preview on its own leading to lots of traffic and potential discrepancies between the previews served by different servers or the origin home server sends the preview but now everyone has to trust that it is authentic. The home server to which a link gets posted could place anything as its preview and thereby indirectly impersonate the URL and fake its content.
+For E2EE messengers things are even more annoying because you do not want the servers to see the URL at all. So either all parties have to retrieve the preview on their own meaning they have to connect to a random, potentially malicious URL or only the sender does and everyone has to trust the sender that the preview is authentic which is a great opportunity for scams.^1
+The perfect solution would be a standard for web servers to sign URL previews with their CA issued certificate. So that you can always proof that a preview is authentic. RFC 9421 already standardizes this. But this will not happen. There is virtually no chance of widespread adoption.
+So my idea is:
+You retrieve a webpage and record the whole TLS session including certificates, MACs and your key material like nonce and client random from the handshake. Now you use this as the basis for the URL preview. When you include your secret material from the TLS handshake anyone should be able to verify that the content is authentic from the server serving the URL due to the CA certificate and authentication of TLS traffic.
+Standardize the request headers and limit the response length. Just cut off everything after the limit. Define some algorithm for computing the preview that ever recipient can verify. If you want to include linked images in the preview that increases complexity but should be doable. Repeat the whole thing with the linked image and create a bundle from all requests that authenticates the preview.
+The downside I see is complexity and the need for the receiver to parse the preview bundle which might be attack surface.
+Does anything similar already exist? Am I missing something or do you think this might be feasible to implement?
+[1] Many messengers solve this by providing a URL preview service on the server. The client sends the URL to the messenger service which retrieves (and signs I hope) a URL preview which the client then includes in the message. This has the advantage that none of the parties of the conversation has to directly connect to an untrusted UTL. This bypasses E2EE for URLs. You can usually opt of this by disabling previews. Consider this if you did not know about this.",worked_request,"pre-labelled, checked"
+"Ask HN: How much are developers trusting LLMs to write prod code?
+
+I've been out of the dev role for a few years. I'd appreciate if you could help me better understand what its actually like out there. How much are you trusting LLMs for writing production code:
+1. Chat-esque LLM assistance while mostly hand writing code
+2. LLM writes the code and you review line by line
+3. Review mainly the high level design and tests, scanning the lower level implementation for stuff that jumps out
+4. Relying on LLM generated reviews and inspecting what it highlights
+5. Relying on agentic code/PR/fix loops
+How long ago did you hit that level of trust, was it tied to a model release?
+Are expectations, team norms etc forcing you to use LLMs beyond your trust in it?
+Have the industry changes brought more excitement about or apathy towards your work?",worked_request,"pre-labelled, checked"
+"OpenCode and OpenAI issue refunds after security breach of OpenCode console
+
+Just got this email from OpenCode security:
+We're following up on your OpenAI credentials that may have been exposed. We've worked with OpenAI to revoke all of them and they have issued refunds for any unauthorized usage.
+Additionally, if your account was banned as part of this process it should be reinstated.
+No need to reply to this email unless you still have some issues
+Thank you and apologies once again",position,"pre-labelled, checked"
+"Ask HN: What's up with all the dead links recently?
+
+For the past couple of weeks, I've found that probably 20-30% of front page HN links are unresolvable with ""this site can't be reached"" errors. Checking the comment thread, it's clear that the links are loading for other people.
+Has HN become such a traffic cannon that we bring down anything that hits the front page and I'm always late to the party? Are the sites being brought down by heavy AI bot traffic? What gives?",case_report,"pre-labelled, checked"
