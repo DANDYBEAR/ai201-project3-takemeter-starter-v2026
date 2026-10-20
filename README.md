@@ -42,6 +42,12 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+TakeMeter classifies public Ask HN posts by their primary communicative intent:
+reporting a checkable incident, requesting advice with concrete context, asking
+an open question, or stating a position. The dataset contains 200 complete
+posts from the public Hacker News Algolia API. I fine-tuned DistilBERT to test
+whether those text-level distinctions can be learned from a small labelled
+dataset.
 
 
 ---
@@ -54,34 +60,83 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `case_report`
 
-**Definition:**
-
-**Example 1:**
->
-
-**Example 2:**
->
-
-### `label_two`
-
-**Definition:**
+**Definition:** Describes a discrete incident or external change, supports it
+with a checkable detail, and explicitly asks for explanation or action.
 
 **Example 1:**
->
+> AppStore – Waiting for Review  Hello, I've been in the iOS App Review for 4
+> days, and I'm wondering what the experience is for others with it; 2 years
+> ago, when I submitted a different one, it went through in less than 24
+> hours. Is this normal? Or might my app stay more in review for some other
+> reason?
 
 **Example 2:**
->
+> Ask HN: Any way to remove ads in Apple apps?  Apple has added notification
+> red icons to the Apple Settings app to try to sell extended AppleCare. I find
+> this annoying because there are their alerts in the Settings app that I
+> immediately respond to. Any tricks to turn these off (without buying the
+> service)?
+
+### `worked_request`
+
+**Definition:** Seeks advice for a concrete decision and supplies a material
+constraint, prior attempt, rejected option, or success criterion, but is not
+primarily investigating a discrete external incident.
+
+**Example 1:**
+> Ask HN: Any good technical podcasts to listen to while driving?  It takes me
+> 30 to 40 minutes to reach the office every day and would love to listen to a
+> technical podcast if such a thing exists. Something that is thorough and not
+> hype based.
+
+**Example 2:**
+> Ask HN: What are the best open models for computer use?  Playing around with
+> Opus 5.5 + Blender has yielded some crazy results, but my $200 plan maxes
+> almost instantly. Any open models that are somewhat comparable (maybe like
+> 80% as good) right now?
+
+### `open_question`
+
+**Definition:** Directly solicits information or experiences but provides no
+material constraint, prior attempt, success criterion, or checkable support
+for its premise.
+
+**Example 1:**
+> Ask HN: What's your current MacBook wallpaper?  looking for inspo
+
+**Example 2:**
+> Ask HN: In the age of AI does your boss still ask you for time estimates?
+> See title, just curious.
+
+### `position`
+
+**Definition:** Primarily argues, reacts, announces, promotes, or petitions;
+any question is rhetorical or secondary rather than a genuine request for
+information or advice.
+
+**Example 1:**
+> Ianal?  looks like we've been kidding ourselves all these years prefixing our
+> advice with "IANAL". Maybe let's switch to IANAA from now on.
+
+**Example 2:**
+> I gained 20k impressions on my LinkedIn profile in 100 days  I gained 20,000
+> impressions on my LinkedIn profile in 100 days! Thank you to everyone who
+> read, liked, commented and shared my posts!
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `case_report` and `worked_request`
 
 **The decision rule I used every time:**
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
 
+If a post is primarily investigating a discrete external incident or change
+and gives a checkable detail, I use `case_report`; otherwise, a genuine advice
+request with a material constraint, attempt, rejected option, or success
+criterion is `worked_request`.
 
 
 ---
@@ -158,16 +213,30 @@ rules are recorded in the corresponding notes.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Training device:** CPU (`torch 2.14.1+cpu`) in this project's `.venv`; no
+GPU or other accelerator was used. This is the hardware context recorded in
+`results.json` for the seed 42 run.
+
+**Base model:** `distilbert-base-uncased`
 
 **Settings:** <!-- epochs, learning rate, batch size, seed -->
 
+3 epochs, learning rate `2e-5`, batch size 16, maximum length 128 tokens, and
+seed 42.
+
 **Anything I changed from the defaults, and why:**
+
+Nothing. I kept all notebook defaults so this first run is a reproducible
+baseline for the three-seed comparison in the next unit.
 
 **Split sizes:** <!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
 of next unit's variance. -->
 
+139 train / 31 validation / 30 test. The test split contains 4 `case_report`,
+10 `worked_request`, 7 `open_question`, and 9 `position` posts. The
+`case_report` and `open_question` metrics will be especially sensitive to a
+single prediction because both have fewer than about eight test examples.
 
 
 ---
