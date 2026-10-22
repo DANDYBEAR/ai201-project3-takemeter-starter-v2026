@@ -289,19 +289,35 @@ individually read and checked by me; this is also recorded in each row's
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.133 | 0.400 | +0.267 |
+| Macro F1 | 0.062 | 0.222 | +0.160 |
+| F1 — `case_report` | 0.250 | 0.000 | -0.250 |
+| F1 — `open_question` | 0.000 | 0.000 | +0.000 |
+| F1 — `position` | 0.000 | 0.364 | +0.364 |
+| F1 — `worked_request` | 0.000 | 0.526 | +0.526 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
 
+I predict that the trained model will beat the zero-shot baseline most clearly
+on `position`, where training examples should help it distinguish rhetorical or
+promotional language from genuine requests.
+
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
 
+On the same 30 held-out posts, fine-tuning added 26.7 percentage points of
+accuracy and 0.160 macro F1 over the definitions-based baseline, mainly by
+learning `worked_request` and `position`; it still failed to learn
+`open_question` and traded away the baseline's `case_report` recall. My
+prediction about `position` was supported, though `worked_request` showed the
+largest F1 gain. As a prompt ablation, I also ran the baseline with bare label
+names: it scored 0.400 accuracy and 0.291 macro F1, versus 0.133 and 0.062 with
+the definitions. Thus these definitions were worth -26.7 accuracy points in
+this zero-shot setup: rather than helping, they biased 28 of 30 predictions
+toward `case_report`.
 
 
 ---
