@@ -1,52 +1,67 @@
 [
   {
     "seed": 42,
-    "n_test": 9,
-    "accuracy": 0.6666666666666666,
-    "f1_macro": 0.5555555555555555,
+    "n_test": 30,
+    "accuracy": 0.4,
+    "f1_macro": 0.22248803827751196,
     "per_label": {
-      "analysis": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "support": 3
-      },
-      "hot_take": {
+      "case_report": {
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0.0,
-        "support": 3
+        "support": 4
       },
-      "reaction": {
-        "precision": 1.0,
+      "worked_request": {
+        "precision": 0.35714285714285715,
         "recall": 1.0,
-        "f1": 1.0,
-        "support": 3
+        "f1": 0.5263157894736842,
+        "support": 10
+      },
+      "open_question": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "position": {
+        "precision": 1.0,
+        "recall": 0.2222222222222222,
+        "f1": 0.36363636363636365,
+        "support": 9
       }
     },
     "confusion": {
-      "analysis": {
-        "analysis": 3,
-        "hot_take": 0,
-        "reaction": 0
+      "case_report": {
+        "case_report": 0,
+        "worked_request": 4,
+        "open_question": 0,
+        "position": 0
       },
-      "hot_take": {
-        "analysis": 3,
-        "hot_take": 0,
-        "reaction": 0
+      "worked_request": {
+        "case_report": 0,
+        "worked_request": 10,
+        "open_question": 0,
+        "position": 0
       },
-      "reaction": {
-        "analysis": 0,
-        "hot_take": 0,
-        "reaction": 3
+      "open_question": {
+        "case_report": 0,
+        "worked_request": 7,
+        "open_question": 0,
+        "position": 0
+      },
+      "position": {
+        "case_report": 0,
+        "worked_request": 7,
+        "open_question": 0,
+        "position": 2
       }
     },
     "confidence": {
-      "mean_when_right": 0.36515316367149353,
-      "mean_when_wrong": 0.358113557100296,
-      "accuracy_most_confident_third": 0.6666666666666666,
-      "accuracy_least_confident_third": 0.6666666666666666,
-      "n_per_third": 3
+      "mean_when_right": 0.33290210366249084,
+      "mean_when_wrong": 0.3244166076183319,
+      "accuracy_most_confident_third": 0.7,
+      "accuracy_least_confident_third": 0.3,
+      "n_per_third": 10
     },
     "device": "cpu",
     "device_name": "CPU",
@@ -55,52 +70,67 @@
   },
   {
     "seed": 7,
-    "n_test": 9,
-    "accuracy": 0.6666666666666666,
-    "f1_macro": 0.6555555555555556,
+    "n_test": 30,
+    "accuracy": 0.4,
+    "f1_macro": 0.21846846846846846,
     "per_label": {
-      "analysis": {
-        "precision": 1.0,
-        "recall": 0.3333333333333333,
-        "f1": 0.5,
-        "support": 3
+      "case_report": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
       },
-      "hot_take": {
-        "precision": 0.5,
+      "worked_request": {
+        "precision": 0.37037037037037035,
         "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "support": 3
+        "f1": 0.5405405405405406,
+        "support": 10
       },
-      "reaction": {
-        "precision": 1.0,
-        "recall": 0.6666666666666666,
-        "f1": 0.8,
-        "support": 3
+      "open_question": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "position": {
+        "precision": 0.6666666666666666,
+        "recall": 0.2222222222222222,
+        "f1": 0.3333333333333333,
+        "support": 9
       }
     },
     "confusion": {
-      "analysis": {
-        "analysis": 1,
-        "hot_take": 2,
-        "reaction": 0
+      "case_report": {
+        "case_report": 0,
+        "worked_request": 3,
+        "open_question": 0,
+        "position": 1
       },
-      "hot_take": {
-        "analysis": 0,
-        "hot_take": 3,
-        "reaction": 0
+      "worked_request": {
+        "case_report": 0,
+        "worked_request": 10,
+        "open_question": 0,
+        "position": 0
       },
-      "reaction": {
-        "analysis": 0,
-        "hot_take": 1,
-        "reaction": 2
+      "open_question": {
+        "case_report": 0,
+        "worked_request": 7,
+        "open_question": 0,
+        "position": 0
+      },
+      "position": {
+        "case_report": 0,
+        "worked_request": 7,
+        "open_question": 0,
+        "position": 2
       }
     },
     "confidence": {
-      "mean_when_right": 0.3701897859573364,
-      "mean_when_wrong": 0.35760602355003357,
-      "accuracy_most_confident_third": 1.0,
-      "accuracy_least_confident_third": 0.3333333333333333,
-      "n_per_third": 3
+      "mean_when_right": 0.3244810402393341,
+      "mean_when_wrong": 0.31515833735466003,
+      "accuracy_most_confident_third": 0.3,
+      "accuracy_least_confident_third": 0.0,
+      "n_per_third": 10
     },
     "device": "cpu",
     "device_name": "CPU",
@@ -109,52 +139,67 @@
   },
   {
     "seed": 2024,
-    "n_test": 9,
-    "accuracy": 0.5555555555555556,
-    "f1_macro": 0.5333333333333333,
+    "n_test": 30,
+    "accuracy": 0.6,
+    "f1_macro": 0.46699346405228753,
     "per_label": {
-      "analysis": {
-        "precision": 1.0,
-        "recall": 0.3333333333333333,
-        "f1": 0.5,
-        "support": 3
+      "case_report": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
       },
-      "hot_take": {
-        "precision": 1.0,
-        "recall": 0.3333333333333333,
-        "f1": 0.5,
-        "support": 3
-      },
-      "reaction": {
-        "precision": 0.42857142857142855,
-        "recall": 1.0,
+      "worked_request": {
+        "precision": 0.45,
+        "recall": 0.9,
         "f1": 0.6,
-        "support": 3
+        "support": 10
+      },
+      "open_question": {
+        "precision": 1.0,
+        "recall": 0.2857142857142857,
+        "f1": 0.4444444444444444,
+        "support": 7
+      },
+      "position": {
+        "precision": 0.875,
+        "recall": 0.7777777777777778,
+        "f1": 0.8235294117647058,
+        "support": 9
       }
     },
     "confusion": {
-      "analysis": {
-        "analysis": 1,
-        "hot_take": 0,
-        "reaction": 2
+      "case_report": {
+        "case_report": 0,
+        "worked_request": 4,
+        "open_question": 0,
+        "position": 0
       },
-      "hot_take": {
-        "analysis": 0,
-        "hot_take": 1,
-        "reaction": 2
+      "worked_request": {
+        "case_report": 0,
+        "worked_request": 9,
+        "open_question": 0,
+        "position": 1
       },
-      "reaction": {
-        "analysis": 0,
-        "hot_take": 0,
-        "reaction": 3
+      "open_question": {
+        "case_report": 0,
+        "worked_request": 5,
+        "open_question": 2,
+        "position": 0
+      },
+      "position": {
+        "case_report": 0,
+        "worked_request": 2,
+        "open_question": 0,
+        "position": 7
       }
     },
     "confidence": {
-      "mean_when_right": 0.3821878135204315,
-      "mean_when_wrong": 0.3535589873790741,
-      "accuracy_most_confident_third": 1.0,
-      "accuracy_least_confident_third": 0.0,
-      "n_per_third": 3
+      "mean_when_right": 0.3269944489002228,
+      "mean_when_wrong": 0.3255954682826996,
+      "accuracy_most_confident_third": 0.7,
+      "accuracy_least_confident_third": 0.7,
+      "n_per_third": 10
     },
     "device": "cpu",
     "device_name": "CPU",

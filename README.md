@@ -329,28 +329,49 @@ toward `case_report`.
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | At least 0.65 in every seed | 0.400 | 0.400 | 0.600 | **MISSED** |
+| 2. Per-label F1 | Every label at least 0.50 in every seed | minimum 0.000 | minimum 0.000 | minimum 0.000 | **MISSED** |
+| 3. Label balance | Every label 30–90 posts | 30–65 | 30–65 | 30–65 | **MET** |
+| 4. Annotation agreement | At least 24/30 | pending | pending | pending | **NOT YET TESTED** |
+| 5. Confidence gap | Most-confident third at least 0.20 above least-confident third | +0.400 | +0.300 | +0.000 | **MISSED** |
+
+### Three-seed metric spread
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.400 | 0.400 | 0.600 | 0.200 |
+| Macro F1 | 0.222 | 0.218 | 0.467 | 0.249 |
+| F1 — `case_report` | 0.000 | 0.000 | 0.000 | 0.000 |
+| F1 — `worked_request` | 0.526 | 0.541 | 0.600 | 0.074 |
+| F1 — `open_question` | 0.000 | 0.000 | 0.444 | 0.444 |
+| F1 — `position` | 0.364 | 0.333 | 0.824 | 0.490 |
+
+Accuracy moved 0.200 across seeds, more than ten percentage points. The
+30-post test sets are too small for a stable measure, especially for
+`case_report` and `open_question`, which have only 4 and 7 test examples per
+seed; the 0.400 single-seed result was therefore not a stable estimate.
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
-|---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| true \ predicted | case_report | worked_request | open_question | position |
+|---|---|---|---|---|
+| **case_report** | 0 | 4 | 0 | 0 |
+| **worked_request** | 0 | 10 | 0 | 0 |
+| **open_question** | 0 | 7 | 0 | 0 |
+| **position** | 0 | 7 | 0 | 2 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
 
+Seven real `open_question` posts were called `worked_request`, while none went
+the other way, so the seed-42 model leaned strongly toward advice requests and
+did not learn the boundary between unconstrained questions and requests with a
+material constraint.
 
 
 ---
