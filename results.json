@@ -1,66 +1,51 @@
 {
   "seed": 42,
-  "n_test": 30,
-  "accuracy": 0.4,
-  "f1_macro": 0.22248803827751196,
+  "n_test": 9,
+  "accuracy": 0.6666666666666666,
+  "f1_macro": 0.5555555555555555,
   "per_label": {
-    "case_report": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "support": 4
-    },
-    "worked_request": {
-      "precision": 0.35714285714285715,
+    "analysis": {
+      "precision": 0.5,
       "recall": 1.0,
-      "f1": 0.5263157894736842,
-      "support": 10
+      "f1": 0.6666666666666666,
+      "support": 3
     },
-    "open_question": {
+    "hot_take": {
       "precision": 0.0,
       "recall": 0.0,
       "f1": 0.0,
-      "support": 7
+      "support": 3
     },
-    "position": {
+    "reaction": {
       "precision": 1.0,
-      "recall": 0.2222222222222222,
-      "f1": 0.36363636363636365,
-      "support": 9
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
     }
   },
   "confusion": {
-    "case_report": {
-      "case_report": 0,
-      "worked_request": 4,
-      "open_question": 0,
-      "position": 0
+    "analysis": {
+      "analysis": 3,
+      "hot_take": 0,
+      "reaction": 0
     },
-    "worked_request": {
-      "case_report": 0,
-      "worked_request": 10,
-      "open_question": 0,
-      "position": 0
+    "hot_take": {
+      "analysis": 3,
+      "hot_take": 0,
+      "reaction": 0
     },
-    "open_question": {
-      "case_report": 0,
-      "worked_request": 7,
-      "open_question": 0,
-      "position": 0
-    },
-    "position": {
-      "case_report": 0,
-      "worked_request": 7,
-      "open_question": 0,
-      "position": 2
+    "reaction": {
+      "analysis": 0,
+      "hot_take": 0,
+      "reaction": 3
     }
   },
   "confidence": {
-    "mean_when_right": 0.33290210366249084,
-    "mean_when_wrong": 0.3244166076183319,
-    "accuracy_most_confident_third": 0.7,
-    "accuracy_least_confident_third": 0.3,
-    "n_per_third": 10
+    "mean_when_right": 0.36515316367149353,
+    "mean_when_wrong": 0.358113557100296,
+    "accuracy_most_confident_third": 0.6666666666666666,
+    "accuracy_least_confident_third": 0.6666666666666666,
+    "n_per_third": 3
   },
   "device": "cpu",
   "device_name": "CPU",
