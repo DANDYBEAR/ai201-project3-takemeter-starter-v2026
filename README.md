@@ -332,7 +332,7 @@ toward `case_report`.
 | 1. Overall accuracy | At least 0.65 in every seed | 0.400 | 0.400 | 0.600 | **MISSED** |
 | 2. Per-label F1 | Every label at least 0.50 in every seed | minimum 0.000 | minimum 0.000 | minimum 0.000 | **MISSED** |
 | 3. Label balance | Every label 30–90 posts | 30–65 | 30–65 | 30–65 | **MET** |
-| 4. Annotation agreement | At least 24/30 | pending | pending | pending | **NOT YET TESTED** |
+| 4. Own-taxonomy annotation agreement | At least 24/30 | not run | not run | not run | **MISSED** |
 | 5. Confidence gap | Most-confident third at least 0.20 above least-confident third | +0.400 | +0.300 | +0.000 | **MISSED** |
 
 ### Three-seed metric spread
@@ -383,11 +383,11 @@ material constraint.
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | At least 0.65 in every seed | **MISSED** | Accuracy was 0.400, 0.400, and 0.600, so no seed met the target. |
+| 2 | Per-label F1 | Every label at least 0.50 in every seed | **MISSED** | The minimum label F1 was 0.000 in all three seeds; `case_report` was 0.000 every time. |
+| 3 | Label balance | Every label 30–90 posts | **MET** | The four counts were 30, 44, 61, and 65. |
+| 4 | Own-taxonomy annotation agreement | At least 24/30 on the specified sample | **MISSED** | The required `annotation_audit.csv` comparison on my four-label taxonomy was not run. The separate staff-taxonomy exercise cannot replace this measurement. |
+| 5 | Confidence gap | Most-confident third at least 0.20 above least-confident third in every seed | **MISSED** | The gaps were +0.400, +0.300, and +0.000; seed 2024 failed. |
 
 **Diagnoses**
 
@@ -400,6 +400,47 @@ material constraint.
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
 
+**Criterion 1 — overall accuracy:** The best-supported cause is that this
+four-way intent task is beyond what the model learned reliably from 200 posts,
+with the small splits adding substantial variance. Accuracy moved from 0.400
+to 0.600 across seeds, a 0.200 spread, even though criterion 3 confirms that
+the full dataset was not badly lopsided. In seeds 42 and 7 the model predicted
+`worked_request` for 28 and 27 of 30 posts, respectively, which is model
+collapse rather than a friendly or unfriendly draw alone. My staff-taxonomy
+agreement was 30/30, including all seven rows staff marked borderline. That is
+evidence against a general inability to apply written rules consistently, so
+the available evidence points more strongly to limited data and model learning
+than to broad annotation sloppiness. Because that audit used a different
+taxonomy, it cannot prove that my own four-label boundaries were consistent.
+
+**Criterion 2 — per-label F1:** Too few examples for the smallest class and
+hard custom-label boundaries both contributed. `case_report` has only 30
+examples in the full dataset and 4 in each test split; the model never
+predicted it in any seed, producing 0.000 F1 three times. In the seed-42
+matrix, all 4 `case_report` posts, all 7 `open_question` posts, and 7 of 9
+`position` posts became `worked_request`. The directional errors show that the
+model treated `worked_request` as a catch-all and did not learn the
+incident/advice or unconstrained-question/advice boundaries. The perfect
+staff audit argues against general inconsistency, but criterion 4 was not run,
+so I cannot rule out inconsistency in my own taxonomy. The defensible diagnosis
+is small-class scarcity plus boundaries the model could not learn from this
+amount of data, not a proven labelling failure.
+
+**Criterion 4 — own-taxonomy agreement:** This was a process miss, not a model
+miss. The criterion required a second annotator to label a particular sample
+from my own 200 posts and save `annotation_audit.csv`; that measurement was not
+performed. The 30/30 staff exercise shows that I could apply somebody else's
+written rules, but changing both the posts and the taxonomy means it cannot be
+substituted for the criterion I wrote.
+
+**Criterion 5 — confidence gap:** Confidence was not reliably calibrated with
+this amount of data. Seed 2024 scored 0.700 accuracy in both the most- and
+least-confident thirds, giving a zero gap despite having the highest overall
+accuracy. Each third contains only 10 posts, and the large performance changes
+across seeds show that neither the predictions nor their ranking by confidence
+is stable enough to support the 0.20 target. The agreement result addresses
+human rule application, not probability calibration, so it provides no reason
+to reinterpret this miss as a labelling problem.
 
 
 ---
@@ -412,7 +453,7 @@ material constraint.
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 30 / 30 = 100%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -434,26 +475,16 @@ material constraint.
      written rule two different ways on 30 posts, that is direct evidence about
      what you did across your own 200. -->
 
-**1.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
-
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
+There were no disagreements to adjudicate. Piles (a), (b), and (c) therefore
+contain zero posts each.
 
 **What the pattern in my disagreements tells me:**
 
+I matched staff on all 30 posts, including the seven posts staff marked as
+borderline. The evidence-carries-the-argument rule and the distinction between
+a general claim and an immediate personal response were tight enough to apply
+consistently. This is evidence against general rule-application inconsistency,
+but it does not directly validate the labels in my separate four-label dataset.
 
 
 ---
