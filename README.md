@@ -49,6 +49,8 @@ posts from the public Hacker News Algolia API. I fine-tuned DistilBERT to test
 whether those text-level distinctions can be learned from a small labelled
 dataset.
 
+**Repository URL:** https://github.com/DANDYBEAR/ai201-project3-takemeter-starter-v2026
+
 
 ---
 
@@ -493,23 +495,40 @@ but it does not directly validate the labels in my separate four-label dataset.
 
 **What I changed:**
 
+I increased training from 3 epochs to 8 and changed nothing else: the base
+model, learning rate, batch size, maximum length, data, and three split seeds
+all stayed fixed. Section 6 records this as the `after` run.
+
 **Which diagnosis pointed at it:**
+
+The 3-epoch runs collapsed toward `worked_request` in two seeds, while seed
+2024 reached 0.600 accuracy on the same amount of data. That combination
+suggested under-training was worth testing before changing labels or the model:
+more optimization passes could give the classifier time to separate the
+existing examples without confounding the comparison with new data.
 
 ### Run Log — After
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | At least 0.65 in every seed | 0.667 | 0.567 | 0.633 | **MISSED** |
+| 2. Per-label F1 | Every label at least 0.50 in every seed | minimum 0.000 | minimum 0.000 | minimum 0.000 | **MISSED** |
+| 3. Label balance | Every label 30–90 posts | 30–65 | 30–65 | 30–65 | **MET** |
+| 4. Own-taxonomy annotation agreement | At least 24/30 | not run | not run | not run | **MISSED** |
+| 5. Confidence gap | Most-confident third at least 0.20 above least-confident third | +0.500 | +0.500 | +0.400 | **MET** |
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
 
+Yes, but not enough to meet every model target. Accuracy rose in every seed:
+0.400 to 0.667 for seed 42, 0.400 to 0.567 for seed 7, and 0.600 to 0.633 for
+seed 2024. Macro F1 likewise rose from 0.222/0.218/0.467 to
+0.533/0.468/0.518. The confidence-gap criterion changed from a miss to a pass
+in all three seeds, and `open_question` F1 rose from 0.000/0.000/0.444 to
+0.600/0.800/0.667. However, `case_report` F1 remained 0.000 in every seed, so
+the improvement did not solve the incident-versus-advice boundary.
 
 
 ---
@@ -518,12 +537,40 @@ but it does not directly validate the labels in my separate four-label dataset.
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
 
+**Criterion 1 — overall accuracy:** Seeds 7 and 2024 remain below 0.65, and the
+0.100 after-run accuracy spread still shows sensitivity to which 30 posts land
+in test. I would collect more labelled posts concentrated around the two hard
+boundaries, then evaluate on a larger fixed test set. I stopped after the one
+controlled improvement required here so that its effect remained attributable
+to epoch count rather than a mixture of data and training changes.
+
+**Criterion 2 — per-label F1:** `case_report` is still 0.000 in all three
+after runs. In the after seed-42 matrix, all four real `case_report` posts were
+called `worked_request`, while none went the other direction. I would first
+have a second annotator audit that exact boundary in my own labels, then add
+more unambiguous incident examples or merge/rewrite the labels if the audit
+shows the distinction is not repeatable. I stopped because changing the
+taxonomy or dataset would be a second intervention and would require a new
+controlled experiment.
+
+**Criterion 4 — own-taxonomy annotation agreement:** The specified blind
+second-annotator audit still has not happened. The 30/30 staff-taxonomy result
+cannot replace it because both the taxonomy and posts differ. I would give the
+seed-42 sample to a real second annotator and save `annotation_audit.csv`; I
+stopped because inventing another person's judgments would invalidate the
+criterion.
 
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
 
+I meant `case_report` to isolate checkable external incidents from ordinary
+advice requests, but the improved seed-42 model called all four held-out
+`case_report` posts `worked_request` and never predicted `case_report` at all.
+Eight epochs helped it recover `open_question` and `position`, but the model
+still learned a broad advice-request category rather than my incident-first
+precedence rule.
 
 
 <!-- ═════════════════════════════════════════════════════════════════════
