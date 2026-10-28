@@ -271,6 +271,23 @@ single prediction because both have fewer than about eight test examples.
   primary communicative intent or incident precedence had been applied too
   loosely. The CSV records the reviewed result, not unchecked AI output.
 
+**Moment 3**
+
+- *What I asked for:* A cross-file audit of the three-seed results, confusion
+  matrices, acceptance criteria, and agreement evidence, followed by a check
+  of the improvement run.
+- *What came back:* The audit identified the directional collapse toward
+  `worked_request`: before the improvement, seeds 42 and 7 assigned 28 and 27
+  of 30 test posts to that label. It also caught that `results.json` and
+  `test_split.csv` still contained the earlier three-label practice run even
+  though the four-label three-seed results were correct.
+- *What I changed:* I verified every claim against the JSON and CSV files,
+  reran the notebook to regenerate the correct 30-post held-out artifacts,
+  and tested one controlled change—8 epochs instead of 3. I used the resulting
+  confusion matrix to write the diagnoses, while leaving the unperformed
+  own-taxonomy second-annotator criterion marked `MISSED` rather than treating
+  the separate staff exercise as a substitute.
+
 **Pre-labelling disclosure:**
 
 Rows 1-20 were labelled cold. Rows 21-200 were AI-pre-labelled and then
